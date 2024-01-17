@@ -1,0 +1,517 @@
+.BtnBills{
+    width: 100%;
+    padding: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.BtnBills button{
+    padding: 12px;
+    width: 15rem;
+    font-family: "Shabnam";
+    font-size: 17px;
+    border-radius: 10px;
+    margin-left: 20px;
+    border: 2px solid #0A426D;
+    cursor: pointer;
+
+}
+.InformationBills{
+    background-color: #E2E2E2;
+    width: 100%;
+    padding: 1rem;
+    box-shadow: 0px 0px 21px -3px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.TopInfo{
+    width: 100%;
+    display: flex;
+   align-items: center;
+   justify-content: right;
+}
+.InformationBills .Profileselect{
+   width: 30%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   direction: rtl;
+   color: #0A426D;
+   font-size: 12px;
+}
+.InformationBills .Profileselect:nth-child(2){
+   width: 16rem;
+}
+
+.InformationBills .Profileselect select{
+   width: 10rem;
+   height: 1.8rem;
+   margin-right: 12px;
+   border-radius: 12px;
+   border: none;
+   text-align: center;
+}
+.InformationBills .Profileselect input{
+   width: 10rem;
+   height: 1.8rem;
+   margin-right: 12px;
+   border-radius: 12px;
+   border: none;
+   text-align: center;
+}
+.InformationBills .InfoPersonBills{
+   width: 100%;
+   padding: 10px 0;
+   border-bottom: 1px solid #B8030A;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+.InformationBills .InfoPersonBills .billsDownpay{
+   padding: 1rem;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   background-color: #F5F7FF;
+   width: 18%;
+   height: 4rem;
+   border-radius: 10px;
+}
+.InformationBills .InfoPersonBills .billsDownpay h6{
+   font-size: 14px;
+}
+.InformationBills .InfoPersonBills .TwoInfo{
+   width: 80%;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+.InformationBills .InfoPersonBills .TwoInfo .FirstSection{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   direction: rtl;
+   margin-bottom: 10px;
+   flex-wrap: wrap;
+   
+}
+.addressBill{
+    width: 64% !important;
+}
+.addressBill input{
+    width: 80% !important;
+    margin-right: 1rem;
+}
+
+.SelectorBills{
+   width: 100%;
+   padding: 1rem;
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+.SelectorBills .ItemSelect{
+   width: 13rem;
+   height: 3rem;
+   display: flex;
+   align-items: center;
+   direction: rtl;
+   justify-content: space-between;
+}
+.SelectorBills .ItemSelect select{
+   width: 9rem;
+   height: 60%;
+   border-radius: 12px;
+   border: none;
+   text-align: center;
+}
+.SelectorBills .ItemSelect label{
+   color: #0A426D;
+   font-size: 13px;
+}
+.SearchBills{
+   width: 100%;
+   display: flex;
+   align-items: self-start;
+   justify-content: space-between;
+   direction: rtl;
+   padding: 1rem;
+   
+}
+.SearchBills h6{ 
+   font-size: 13px;
+   margin-top: 6px;
+}
+.SearchBills .SearchInfo{ 
+   width: 90%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   
+}
+.SearchBills .SearchInfo .SearchPlace{ 
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: #fff;
+   padding: 0 1rem;
+   border-radius: 7px;
+   margin-bottom: 2px;
+   box-shadow: 0px 0px 21px -3px rgba(0,0,0,0.1);
+   
+}
+.SearchBills .SearchInfo .SearchPlace img{ 
+   width: 20px;
+   
+}
+.SearchBills .SearchInfo .SearchPlace input{ 
+   width:95%;
+   height: 2rem;
+   border: none;
+   text-align: right;
+   
+}
+.SearchBills .SearchInfo .SearchPlace input:focus{ 
+   outline: none;
+}
+.SelctiveIssue{
+   width: 100%;
+   padding:6px 1rem;
+   background-color: #fff;
+   box-shadow: 0px 0px 21px -3px rgba(0,0,0,0.1);
+   border-radius: 7px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+
+}
+.SelctiveIssue .IssueItem{
+   width: 32%;
+   height: 1.7rem;
+   background-color: #F5F7FF ;
+   border-radius: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: right;
+   overflow: hidden;
+   padding: 0 0.7rem;
+   margin-bottom: 2px;
+}
+.SelctiveIssue .IssueItem img{
+   width: 17px;
+   cursor: pointer;
+   margin-left: 1rem;
+}
+.SelctiveIssue .IssueItem h5{
+   font-size: 11px;
+}
+.TableForBills{
+   width: 100%;
+   height: 40rem;
+   box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.1);
+   border-radius: 0 0 10px 10px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   padding: 1rem;
+}
+.TableBillsPlace{
+   width: 100%;
+   height: 75%;
+   overflow: auto;
+}
+.TableForBills table{
+  width: 100%;
+    border-collapse: collapse;
+    direction: rtl;
+    font-size: 14px;
+    margin-bottom: 2rem;
+}
+.TableForBills table tr{
+  width: 100%;
+  height: 3rem;
+}
+.TableForBills table th{
+  text-align: center;
+  background-color: #D2EBFF;
+}
+.TableForBills table td{
+  text-align: center;
+}
+.TableForBills table tr:hover{
+  background-color: #F2F3F7;
+}
+.TableForBills table th:nth-child(1){
+   border-radius: 0 10px 10px 0;
+}
+.TableForBills table th:nth-child(6){
+   border-radius: 10px 0 0 10px;
+}
+.TableForBills table td:nth-child(1){
+   border-radius: 0 10px 10px 0;
+}
+.TableForBills table td:nth-child(6){
+   border-radius: 10px 0 0 10px;
+}
+.TableForBills tr:nth-child(2n+1) {
+   background-color: #E9E9E9;
+ }
+
+.TableForBills .actionBills{
+  width: 2.5rem;
+}
+.numberBills{
+   width: 5rem;
+   height: 2rem;
+   border-radius: 10px;
+   border: 1px solid;
+   text-align: center;
+}
+.deleteBills{
+   width: 18px;
+   height: 18px;
+   cursor: pointer;
+}
+.placeForExtraAcion{
+   width: 100%;
+   padding: 0 1rem;
+   display: flex;
+   align-items: center;
+   justify-content: left;
+   margin-bottom:1rem;
+}
+.placeForExtraAcion .TotalBills{
+   width: 30rem;
+   border: 2px solid #0A426D;
+   box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.1);
+   padding: 1rem 2rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border-radius: 10px;
+   direction: rtl;
+}
+.placeForExtraAcion .TotalBills2{
+   width: 30rem;
+   box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.1);
+   padding: 1rem 2rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border-radius: 10px;
+   direction: rtl;
+   background-color: #0A426D;
+   color: #fff;
+   cursor: pointer;
+}
+.placeForExtraAcion .TotalBills .detailsTotal{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.TablePriceBill{
+   width: 100%;
+   padding: 1rem;
+   background-color: #F9F9F9;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+.TablePriceBill .TitleTableBill{
+   width: 90%;
+   height: 4rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   direction: rtl;
+}
+.TablePriceBill .TitleTableBill .lineTitle{
+   width: 80%;
+   height: 2px;
+   background-color: rgba(0, 0, 0, 0.393);
+}
+.filterProducts{
+   width: 90%;
+   height: 3rem;
+   border: 1px solid #0A426D;
+   border-radius: 15px;
+   padding: 0 2rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   direction: rtl;
+}
+.filterProducts .ArchiveBills{
+   width: 10rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   color: #0A426D;
+}
+.filterProducts .ArchiveBills img{
+   width: 25px;
+}
+.TablePlaceBills{
+   width: 90%;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   padding: 1rem 0;
+}
+.titleTableForBill{
+   width: 100%;
+   height: 3rem;
+   background-color: #E1E1E1 ;
+   border-radius: 10px 10px 0 0;
+   display: flex;
+   overflow: hidden;
+   direction: rtl;
+   justify-content: space-between;
+   padding: 0 1rem;
+   align-items: center;
+   margin-bottom: 1px;
+   border-bottom: 2px solid #B8030A;
+ }
+ .rowTableWitheBill{
+   width: 100%;
+   height: 3rem;
+   background-color: #ffffff ;
+   border-radius: 10px;
+   display: flex;
+   overflow: hidden;
+   direction: rtl;
+   justify-content: space-between;
+   padding: 0 1rem;
+   align-items: center;
+   box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.1);
+     margin-bottom: 1px;
+     font-family: "Shabnam" ;
+     text-decoration: none;
+     color: #0a0909;
+   
+ }
+ .rowTableWitheBill:nth-child(2n+1){
+  background-color: #E9E9E9;
+   
+ }
+ .rowTableWitheBill h5{
+   text-align: center;
+ }
+ .rowTableWitheBill h5:nth-child(2){
+   width: 18rem;
+   overflow: hidden;
+   font-size: 11px;
+ }
+ .rowTableWitheBill h5:nth-child(3){
+   width: 4rem;
+ }
+ .rowTableWitheBill h5:nth-child(4){
+   width: 6rem;
+ }
+ .rowTableWitheBill h5:nth-child(5){
+   width: 6rem;
+ }
+ .rowTableWitheBill h5:nth-child(6){
+   width: 6rem;
+ }
+ .rowTableWitheBill img{
+   width: 1rem;
+   height: 1rem;
+   cursor: pointer;
+ }
+ .titleTableForBill img{
+   width: 1rem;
+   height: 1rem;
+   cursor: pointer;
+ }
+ .titleTableForBill h6{
+   font-size: 12px;
+   text-align: center;
+ }
+ .titleTableForBill h6:nth-child(2){
+   width: 18rem;
+ }
+ .titleTableForBill h6:nth-child(3){
+   width: 4rem;
+ }
+ .titleTableForBill h6:nth-child(4){
+   width: 6rem;
+
+ }
+ .titleTableForBill h6:nth-child(5){
+   width: 6rem;
+
+ }
+ .titleTableForBill h6:nth-child(6){
+   width: 6rem;
+
+ }
+
+
+ .paginationBills{
+   width: 100%;
+   height: 4rem;
+   background-color: #F5F5F5 ;
+   border-radius: 5px;
+   display: flex;
+   overflow: hidden;
+   direction: rtl;
+   justify-content: space-between;
+   padding: 0 3rem;
+   align-items: center;
+   box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.1);
+   margin-top: 10px;
+   
+ }
+ .paginationBills .Actions{
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .paginationBills .Actions .ActionKind{
+   width: 6rem;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0 2px;
+   
+ }
+ .paginationBills .Actions .ActionKind h4{
+   color: #0A426D;
+   font-size: 15px;
+   cursor: pointer;
+ }
+ .paginationBills .Actions .ActionKind img{
+   width: 23px;
+   height: 23px;
+   margin-right: 10px;
+ }
+ 
+ .paginationBills .pages{
+   width: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: right;
+ }
+ .paginationBills .pages h5{
+   margin: 0 0.5rem;
+   font-family: "Nazanin" ;
+   cursor: pointer;
+   font-size: 15px;
+ 
+ }
+ .paginationBills .pages h5:nth-child(1){
+   font-family: "Shabnam" ;
+ }

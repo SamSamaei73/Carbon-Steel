@@ -1,0 +1,85 @@
+.box-Info{
+    width: 90%;
+    padding: 1rem;
+    margin-top: 3rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 8px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.box-Info .title-Info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    direction: rtl;
+    
+}
+.box-Info .title-Info .cost-Archive{
+    width: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box-Info .title-Info .cost-Archive img{
+  width: 2rem;
+  height: 2rem;
+  margin-right: 5px;
+}
+.box-Info .producter{
+  width: 100%;
+  display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 0 2rem;
+    direction: rtl;
+    margin-top: 0.5rem;
+
+}
+.box-Info .producter h4:nth-child(1){
+  color: #B8030A;
+  margin-left: 5px;
+}
+.box-Info .Main-Info{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 2rem;
+  margin-top: 2rem;
+}
+.box-Info .Main-Info img{
+  width: 15rem;
+}
+.box-Info .Main-Info .table-Info{
+  width: 35rem;
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-Info .Main-Info .table-Info    td{
+  text-align: center;
+  border-collapse: collapse;
+  box-shadow: 0px 0px 4px 4px rgba(66, 66, 66, 0.1);
+   height: 2rem;
+  width: 50%;
+
+}
+.box-Info .Main-Info .table-Info   table{
+  width: 90%;
+
+}
+.box-Info .Main-Info .table-Info   th{
+  background-color: #E1E1E1 ;
+  border: none;
+  border-bottom: 2px solid #B8030A;
+  height: 2rem;
+  border-radius: 10px 10px 0 0;
+
+}

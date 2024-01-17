@@ -1,0 +1,260 @@
+.articleFilter{
+    width: 100%;
+    padding: 0.5rem 0;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    direction: rtl;
+}
+.articleFilter input{
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: 1px solid rgb(184, 184, 184);
+    text-align: right;
+    padding-right: 10px;
+  font-family: "Shabnam";
+  margin: 10px;
+
+}
+.articleFilter select{
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: 1px solid rgb(184, 184, 184);
+    text-align: right;
+    padding-right: 10px;
+  font-family: "Shabnam";
+  margin: 10px;
+
+}
+.cover-article{
+    width: 100%;
+    position: relative;
+    height: auto;
+}
+.cover-article img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 8px rgba(0,0,0,0.1);
+}
+.info-detail{
+    width: 100%;
+    position: relative;
+    margin-bottom: 3rem;
+    box-shadow: 0px 0px 7px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titleInfo{
+    position: absolute;
+    right: 15px;
+    top: 20px;
+}
+.detailMain {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.detailMain summary{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 1rem;
+    color: brown;
+}
+.box-Info{
+    width: 100%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.box-Info .boxAccess{
+    width: 90%;
+    box-shadow: 0px 0px 7px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    background-color: rgba(219, 214, 214, 0.426);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    direction: rtl;
+
+}
+.box-Info .boxAccess h4{
+    width: 100%;
+    text-align: right;
+}
+.box-Info .access-Title {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.box-Info .access-Title .titr {
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box-Info .access-Title .titr h4{
+    width: 7rem;
+}
+.box-Info .access-Title .titr img{
+    width: 1rem;
+    margin-left: 10px;
+}
+
+
+.MainArt{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.ArticleStyle{
+    width: 82%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.ArticleStyle .title-products{
+    width: 100%;
+}
+.lineArt{
+    border: 1px solid rgba(128, 128, 128, 0.461);
+    width: 90%;
+ }
+
+ .article-Best{
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1); 
+    margin-bottom: 1rem;
+  }
+   .article-Best .title-box{
+    width: 100%;
+    padding: 2rem 6rem; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    direction: rtl;
+   
+    
+   }
+   .article-Best .title-box h3{
+    color: #B80C0A;
+   }
+   .article-Best .title-box .line{
+     background-color: #7070707e;
+     width: 85%;
+     height: 2px;
+   }
+   .article-Best .list-article{
+     width: 90%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+   
+     
+   }
+   .article-Best .item-article{
+     width: 19rem;
+     height: 16rem;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     border-radius: 10px;
+     overflow: hidden;
+     margin: 20px;
+     position: relative;
+     box-shadow: 0px 3px 22px 13px rgba(0,0,0,0.1);
+   
+   }
+   .article-Best .item-article img{
+     width: 100%;
+     height: 70%;
+     margin-bottom: 12px;
+     box-shadow: 0px 3px 8px 4px rgba(0,0,0,0.1);
+   }
+   .article-Best .item-article h4{
+     width: 100%;
+     text-align: center;
+     color: #B80C0A;
+     cursor: pointer;
+     height: 30px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     box-shadow: 0px 3px 8px 4px rgba(0,0,0,0.1);
+     position: absolute;
+     bottom: 0;
+     font-size: 13px;
+   }
+
+  .MobileNavbarPlace{
+    display: none;
+  }
+  
+   /* /////////////////////////////////mobile////////////////////////////////////////// */
+
+@media (max-width: 565px) {
+  .MobileNavbarPlace{
+    display: flex;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+    .articleFilter input{
+      width: 100%;
+      text-align: center;
+    }
+    .articleFilter select{
+      width: 100%;
+      text-align: center;
+
+    }
+    .detailMain summary{
+      justify-content: center;
+      flex-direction: column;
+      font-size: 12px;
+      margin-top: 1rem;
+    }
+    .titleInfo{
+      font-size: 10px;
+      right: 40px;
+    }
+    .box-Info .boxAccess{
+        width: 100%;
+    }
+    .access-Title{
+        display: none !important;
+    }
+    .title-box{
+        padding: 0 !important;
+        font-size: 10px;
+    }
+    .article-Best .title-box .line{
+        width: 70%;
+    }
+}

@@ -1,0 +1,525 @@
+.JobPlace{
+    width: 90%;
+    height: 32rem;
+    margin-top: 1rem;
+    background: url(/Images/v748-toon-107.jpg) no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+.JobPlace img{
+    width: 9rem;
+}
+.JobPlace .TextJob{
+    width: 27rem;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.JobPlace .TextJob h3{
+    width: 100%;
+    font-weight: 900;
+    font-size: 22px;
+}
+.JobPlace .TextJob p{
+    width: 100%;
+    height: 22rem;
+    overflow: auto;
+    text-align: right;
+    margin-top: 1rem;
+}
+.title-Job{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    direction: rtl;
+    margin-top: 1rem;
+}
+.title-Job .progress{
+    color: #B80C0A;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+ }
+  .title-Job a{
+    text-decoration: none;
+    color: #0a0909;
+    font-size: 13px;
+    width: 6rem;
+ }
+  .title-Job .InfoLong{
+    text-decoration: none;
+    color: #0a0909;
+    font-size: 13px;
+    width: 18rem;
+ }
+  .title-Job .linePro{
+    border: 1px solid rgba(128, 128, 128, 0.461);
+    width: 80%;
+    margin-right: 1rem;
+ }
+
+ .Process-Join{
+    width: 100%;
+    background-color: #fff;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 1rem;
+
+ }
+  .Title-Process{
+    width: 90%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    direction: rtl;
+    margin: 1rem 0;
+ }
+  .Title-Process .lineProcess{
+   width: 80%;
+   height: 2px;
+   background-color: #000000a5;
+ }
+.Main-Process-Job{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    direction: rtl;
+}
+.Main-Process-Job .selectProcess{
+   width: 23rem;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+
+}
+.Main-Process-Job .selectProcess .Row-Process-job{
+   width: 100%;
+   height: 15%;
+   margin-bottom: 5px;
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.activeJob .btnTabJob{
+    border: 1px solid #0A426D !important;
+
+}
+.activeJob .lineJobProcess{
+    background-color: #0A426D;
+
+
+}
+.Main-Process-Job .selectProcess .Row-Process-job .btnTabJob{
+   width: 75%;
+   height: 100%;
+   border: 2px solid rgba(0, 0, 0, 0.222);
+   border-radius: 10px;
+   background-color: #F5F7FF;
+   display: flex;
+   align-items: center;
+   padding: 0 1rem;
+   justify-content: right;
+}
+.Main-Process-Job .selectProcess .Row-Process-job .btnTabJob h3:nth-child(1){
+  color: #B80C0A;
+  margin-left: 1rem;
+}
+.lineJobProcess{
+    width: 15%;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.222);
+}
+.Main-Process-Job .explainProcess{
+   width: 80%;
+   height: 100%;   
+}
+.Tab-job{
+    width: 100%;
+    height: 100%;
+    background-color: #F5F7FF;
+    display: block;
+    border-radius: 5px;
+}
+.tabNoun{
+    display: none;
+}
+
+.Tab-job .explainPlace{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    direction: ltr;
+}
+.Tab-job .explainPlace img{
+   width: 8rem;
+   height: 8rem;
+}
+.Tab-job .explainPlace .TextOfExplain{
+   height: 50%;
+   width: 40rem;
+   overflow: auto;
+   display: flex;
+   align-items: flex-end;
+   flex-direction: column;
+}
+.Tab-job .explainPlace .TextOfExplain h2{
+   direction: rtl;
+   color: #0A426D;
+   width: 100%;
+}
+.Tab-job .explainPlace .TextOfExplain h2 span{
+   color: #B80C0A;
+   margin-left: 10px;
+}
+.Tab-job .explainPlace .TextOfExplain p{
+   width: 80%;
+   text-align: right;
+   margin-top: 2rem;
+   height: 10rem;
+   
+}
+
+.Job-opportunities{
+    width: 100%;
+    padding: 1rem;
+    background-color:#F3F3F3 ;
+    box-shadow: 0px 10px 50px -15px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.PlaceForSearch{
+    width: 90%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-bottom: 1rem;
+}
+.PlaceForSearch .SearchWithLogo{
+    width: 20rem;
+    height: 3rem;
+    border: 2px solid rgba(0, 0, 0, 0.238);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    direction: rtl;
+    padding: 0 10px;
+}
+.PlaceForSearch .SearchWithLogo input{
+    width: 90%;
+    height: 100%;
+    border: none;
+    background-color: #0a426d00;
+    padding-right: 10px;
+    font-size: 18px;
+}
+.PlaceForSearch .SearchWithLogo input:focus{
+    outline: none;
+}
+.JobSelectBtns{
+    width: 90%;
+    padding: 3rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #F3F3F3;
+    box-shadow: inset 0px 0px 19px 11px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    direction: rtl;
+
+}
+.JobSelectBtns .btnIssueJob{
+    width: 25%;
+    height: 3.5rem;
+    border-radius: 5px;
+    border: 2px solid #0A426D;
+    background-color: #fff;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 1rem;
+    cursor: pointer;
+    direction: ltr;
+    text-decoration: none;
+    color: black;
+}
+.JobSelectBtns .btnIssueJob:hover{
+    background-color: #F5F7FF ;
+}
+.JobSelectBtns .btnIssueJob img{
+    width: 20px;
+}
+
+
+
+.Tab-send-Job{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+  .title-JobSend{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    direction: rtl;
+    margin-top: 1rem;
+}
+.title-JobSend .progress{
+    color: #B80C0A;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+ }
+  .title-JobSend a{
+    text-decoration: none;
+    color: #0a0909;
+    font-size: 13px;
+    width: 6rem;
+ }
+  .title-JobSend .InfoLong{
+    text-decoration: none;
+    color: #0a0909;
+    font-size: 13px;
+    width: 18rem;
+ }
+  .title-JobSend .linePro{
+    border: 1px solid rgba(128, 128, 128, 0.461);
+    width: 70%;
+    margin-right: 1rem;
+ }
+
+ .mainFormJobSend{
+    width: 90%;
+    padding: 3rem 1rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 2rem 0;
+    background-color: #fff;
+    box-shadow: 0px -3px 36px 18px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    direction: rtl;
+    
+ }
+ .mainFormJobSend .AboutJob{
+    width: 30rem;
+    height: 30rem;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 2rem;
+    overflow: auto;
+
+ }
+ .mainFormJobSend .AboutJob h4{
+   width: 100%;
+   text-align: right;
+   margin-bottom: 20px;
+ }
+ .mainFormJobSend .AboutJob h5{
+   width: 100%;
+   text-align: right;
+   margin-bottom: 5px;
+   line-height: 30px;
+   direction: rtl;
+ }
+
+ .mainFormJobSend .EmployeeInfo{
+    width: 30rem;
+    height: 30rem;
+    background-color: #F6F7FF;
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ }
+ .mainFormJobSend .EmployeeInfo h4{
+   width: 100%;
+   direction: rtl;
+   text-align: right;
+   line-height:30px;
+   margin-bottom: 15px;
+ }
+ .mainFormJobSend .EmployeeInfo input{
+   width: 100%;
+   text-align: right;
+   margin-bottom: 10px;
+   height: 2.7rem;
+   border-radius: 10px;
+   border: 1px solid rgba(0, 0, 0, 0.358);
+  font-family: "Shabnam" ;
+   padding-right: 10px;
+ }
+ .mainFormJobSend .EmployeeInfo textarea{
+   width: 100%;
+   text-align: right;
+   margin-bottom: 10px;
+   height: 4rem;
+   border-radius: 10px;
+   border: 1px solid rgba(0, 0, 0, 0.358);
+  font-family: "Shabnam" ;
+   padding-right: 10px;
+   padding-top: 10px;
+ }
+ .mainFormJobSend .EmployeeInfo button{
+   width: 100%;
+   height: 2.7rem;
+   border-radius: 10px;
+  font-family: "Shabnam" ;
+   background-color: black;
+   color: #fff;
+   margin-top: 15px;
+   border: none;
+   cursor: pointer;
+ }
+ .mainFormJobSend .EmployeeInfo input::placeholder{
+   color: #0000002e;
+ }
+ .mainFormJobSend .EmployeeInfo textarea::placeholder{
+   color: #0000002e;
+ }
+ .AttachFile{
+    display: none;
+ }
+ #file-input-label{
+    border: 1px dashed #B80C0A !important;
+    background-color: #fff;
+    direction: rtl;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   height: 2.7rem;
+   border-radius: 10px;
+    cursor: pointer;
+    font-size: 13px;
+ }
+ 
+ .MobileNavbarPlace{
+  display: none;
+}
+
+.Tab-JobMain{
+  width: 75%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+.Tab-JobMain h3{
+  width: 90%;
+  text-align: right;
+  margin-top: 20px;
+  margin-bottom: 10px;
+ 
+}
+.Tab-JobMain .explain-products{
+  width: 90%;
+  padding: 0 1rem 1rem 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 123, 255);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+
+ 
+}
+.Tab-JobMain .explain-products .title{
+  width: 70%;
+  height: 2.5rem;
+  border-radius: 0 0 10px 10px;
+  background-color:#D2EBFF;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Tab-JobMain .explain-products .main-explain{
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  direction: rtl;
+  text-align: right;
+}
+
+   /* /////////////////////////////////mobile////////////////////////////////////////// */
+
+   @media (max-width: 565px) {
+    .MobileNavbarPlace{
+        display: flex;
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+      }
+      .title-Job{
+        display: none;
+      }
+      .Tab-JobMain{
+        width: 100%;
+      }
+      .JobPlace{
+        width: 100%;
+      }
+      .JobPlace .TextJob p{
+        font-size: 12px;
+      }
+      .Title-Process{
+        width: 100%;
+        font-size: 10px;
+      }
+      .Title-Process .lineProcess{
+        width: 60%;
+      }       
+      .Main-Process-Job .explainProcess{
+        display: none;
+      }
+      .lineJobProcess{
+        display: none;
+      }
+      .JobSelectBtns{
+        justify-content: center;
+      }
+      .JobSelectBtns .btnIssueJob{
+        width: 100%;
+        font-size: 12px;
+      }
+      .ImgJob{
+        width: 20rem;
+      }
+      .title-JobSend{
+        display: none;
+      }
+      }
+    

@@ -1,0 +1,775 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Css/header.css">
+    <link rel="stylesheet" href="/Css/Main.css">
+    <link rel="stylesheet" href="/Css/Products.css">
+    <link rel="stylesheet" href="/Css/Body.css">
+    <link rel="icon" href="/Images/Final Cs logo 1.png">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+
+
+    <title>محصولات</title>
+</head>
+<body>
+    <div class="container">
+        <!-- /* //////////////////////////////////////////////Top-Head//////////////////////////////////////////////// */ -->
+
+        <header class="Top-Head">
+            <div class="line"></div>
+            <h4 class="topTitle">خرید با باربری رایگان</h4>
+            <div class="line"></div>
+            <a href="#">۰۲۱ - <span class="boldNumber">۵۴۹۱۲۳۴۴</span></a>
+            <img class="MobileLogo" src="/Images/Mobile UI Assets/Final Cs logo without type mobile.png" alt="Logo">
+            <div class="CompName">
+                <h2>کربن استیل</h2>
+                <h5>تخصص <span class="ColorRed">اعتماد</span> سرعت</h5>
+            </div>
+            
+        </header>
+         <!-- /* //////////////////////////////////////////////Navbar//////////////////////////////////////////////// */ -->
+
+         <div class="MobileNavbarPlace">
+
+            <div class="MobileNavbar">
+                <img src="/Images/icons8-hamburger-menu-30.png" alt="" onclick="NavFunction()">
+            </div>
+            <div  class="HideNav" id="MoBileNavFun">
+                <div class="MobileItem">
+                    <a href="/index.html">صفحه نخست</a>
+                </div>
+                <div class="MobileItem">
+                    <a href="/Pages/Products.html">محصولات</a>
+                </div>
+                <div class="MobileItem">
+                    <a href="/Pages/Article.html">دانشنامه</a>
+                </div>
+                <div class="MobileItem">
+                    <a href="/Pages/Contact.html">تماس باما</a>
+                </div>
+            </div>
+        </div>
+         <div class="Navbar">
+            <a href="/index.html" class="logo">
+                <img class="Logo_img" src="/Images/Final Cs logo 1.png" alt="LOGO">
+            </a>
+            <div class="searchBox">
+                <img class="img-Search"  src="/Images/icons8-search-26.png" alt="search">
+                <input class="searchInput" type="search" placeholder="نام یا ویژگی محصول مورد نظر خود را وارد کنید">
+            </div>
+            <div class="TabInfo">
+                <div class="tab">
+                    <a class="tablinks" href="/Pages/Contact.html" >تماس باما</a>
+                    <a class="tablinks" href="/Pages/Article.html" >دانشنامه</a>
+                    <a class="tablinks active" href="/Pages/Products.html" >محصولات</a>
+                    <a class="tablinks" href="/index.html" >صفحه نخست</a>
+                  </div>
+            </div>
+            <div class="sign-in">
+                <div class="signInbutton">
+                    <a class="SignUp" href="/Pages/LoginPage.html">
+                        <img src="/Images/icons8-search-26.png" alt="Login">
+                        <h6>ورود | ثبت نام</h6>
+                    </a>
+                    <div class="store">
+                        <img src="/Images/checkout.png" alt="">
+                        <h6>سبد خرید</h6>
+                    </div>
+                   
+                </div>
+                <div class="call">
+                    <img src="/Images/icons8-search-26.png" alt="">
+                    <h5>05523663387</h5>
+                </div>
+            </div>
+        </div>
+        <div class="title-products">
+            <a href="/index.html">کربن استیل <span class="progress"> ></span></a>
+            <a href="/Pages/Products.html"> محصولات <span class="progress"> ></span></a>
+            <div class="linePro"></div>
+         </div>
+         <div class="lists">
+            <a href="/Pages/Steels/BlackSteel.html" class="box-list coloreBlack">
+                <h2>لیست قیمت ورق سیاه</h2>
+                <img src="/Images/Galvanized-Sheets-Stacked-Leveled.png" alt="photo">
+            </a>
+            <a href="/Pages/Steels/Galvanize.html" class="box-list coloreGray">
+                <h2>لیست قیمت ورق گالوانیزه</h2>
+                <img src="/Images/Galvanized-Sheets-Stacked-Leveled.png" alt="photo">
+            </a>
+            <a href="/Pages/Steels/Alloy.html" class="box-list coloreRed">
+                <h2>لیست قیمت ورق آلیاژی</h2>
+                <img src="/Images/Galvanized-Sheets-Stacked-Leveled.png" alt="photo">
+            </a>
+            <a href="/Pages/Steels/ColorFul.html" class="box-list coloreBlue">
+                <h2>لیست قیمت ورق رنگی</h2>
+                <img src="/Images/Galvanized-Sheets-Stacked-Leveled.png" alt="photo">
+            </a>
+            <a href="/Pages/Steels/OilS.html" class="box-list Oili">
+                <h2>لیست قیمت ورق روغنی</h2>
+                <img src="/Images/Galvanized-Sheets-Stacked-Leveled.png" alt="photo">
+            </a>
+            <a href="/Pages/Steels/Steel.html" class="box-list Gray">
+                <h2>لیست قیمت ورق استیل</h2>
+                <img src="/Images/Galvanized-Sheets-Stacked-Leveled.png" alt="photo">
+            </a>
+         </div>
+    <!-- //////////////////////////////////////////////////////Lists///////////////////////////////////////////////////         -->
+ 
+    <div class="steel-price">
+
+                
+        <div class="price-Table">
+            <div class="sumeryPrice">
+                <h3>خلاصه قیمت محصولات</h3>
+            </div>
+            <div class="table-space">
+                <div class="title-Tab">
+                    <div class="Steel-tab">
+                        <button class="tabsteel" onclick="openSteel(event, 'colory')">ورق رنگی</button>
+                        <button class="tabsteel" onclick="openSteel(event, 'oil')">ورق روغنی</button>
+                        <button class="tabsteel" onclick="openSteel(event, 'steel')">ورق استیل</button>
+                        <button class="tabsteel" onclick="openSteel(event, 'galvanige')">ورق گالوانیزه</button>
+                        <button class="tabsteel" onclick="openSteel(event, 'alloy')">ورق آلیاژی</button>
+                        <button class="tabsteel" onclick="openSteel(event, 'black')" id="defaultOpen2">ورق سیاه</button>
+                      </div>
+                </div>
+                <div id="black" class="tabSteels tables">
+                    <div class="boxPrice">
+                        <div class="TableHeader">
+                            <div class="Hedi">تام محصول</div>
+                            <div class="Hedi">کارخانه</div>
+                            <div class="Hedi">قیمت</div>
+                            <div class="Hedi">تغییرات</div>
+                        </div>
+                        <div class="roWTabale">
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/up.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/up.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/down.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/up.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/down.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/up.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                        </div>
+                        <div class="ButtonMore">
+                            <h3>مشاهده کامل لیست</h3>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                <div id="alloy" class="tables tabSteels">
+                    <div class="boxPrice">
+                        <div class="TableHeader">
+                            <div class="Hedi">تام محصول</div>
+                            <div class="Hedi">کارخانه</div>
+                            <div class="Hedi">قیمت</div>
+                            <div class="Hedi">تغییرات</div>
+                        </div>
+                        <div class="roWTabale">
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/up.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/up.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/down.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/up.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/down.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/up.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                        </div>
+                        <div class="ButtonMore">
+                            <h3>مشاهده کامل لیست</h3>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                <div id="galvanige" class="tables tabSteels">
+                    <div class="boxPrice">
+                        <div class="TableHeader">
+                            <div class="Hedi">تام محصول</div>
+                            <div class="Hedi">کارخانه</div>
+                            <div class="Hedi">قیمت</div>
+                            <div class="Hedi">تغییرات</div>
+                        </div>
+                        <div class="roWTabale">
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/up.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/up.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/down.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/up.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/down.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/up.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                        </div>
+                        <div class="ButtonMore">
+                            <h3>مشاهده کامل لیست</h3>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                <div id="steel" class="tables tabSteels">
+                    <div class="boxPrice">
+                        <div class="TableHeader">
+                            <div class="Hedi">تام محصول</div>
+                            <div class="Hedi">کارخانه</div>
+                            <div class="Hedi">قیمت</div>
+                            <div class="Hedi">تغییرات</div>
+                        </div>
+                        <div class="roWTabale">
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/up.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/up.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/down.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/up.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/down.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/up.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                        </div>
+                        <div class="ButtonMore">
+                            <h3>مشاهده کامل لیست</h3>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                <div id="oil" class="tables tabSteels">
+                    <div class="boxPrice">
+                        <div class="TableHeader">
+                            <div class="Hedi">تام محصول</div>
+                            <div class="Hedi">کارخانه</div>
+                            <div class="Hedi">قیمت</div>
+                            <div class="Hedi">تغییرات</div>
+                        </div>
+                        <div class="roWTabale">
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/up.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/up.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/down.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/up.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/down.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/up.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                        </div>
+                        <div class="ButtonMore">
+                            <h3>مشاهده کامل لیست</h3>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                <div id="colory" class="tables tabSteels">
+                    <div class="boxPrice">
+                        <div class="TableHeader">
+                            <div class="Hedi">تام محصول</div>
+                            <div class="Hedi">کارخانه</div>
+                            <div class="Hedi">قیمت</div>
+                            <div class="Hedi">تغییرات</div>
+                        </div>
+                        <div class="roWTabale">
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/up.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/up.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/down.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/up.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/down.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                            <div class="RowP">
+                                <h4>ورق سیاه ۵ میلیمتری</h4>
+                                <h4>ذوب آهن</h4>
+                                <h4>۲۲۶،۵۰۰ ریال</h4>
+                                <h4><img src="/Images/up.png" alt="trend's price"></h4>
+                                <div class="lineRed"><div class="Liner"></div></div>
+                            </div>
+                        </div>
+                        <div class="ButtonMore">
+                            <h3>مشاهده کامل لیست</h3>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+        <div class="PriceCurrency">
+            <div class="TableCurrency">
+                <div class="TitlePrice">
+                    <h5>قیمت های لحظه ای مهم</h5>
+                    <h5>بروز رسانی لحظه ای</h5>
+                </div>
+
+                <div class="ItemCurrency">
+                    <div class="NameCurr">
+                        <img src="/Images/icons8-dollar-24.png" alt="">
+                        <h5 class="UpCurr">50.250 ریال</h5>
+                    </div>
+                    <div class="AmountCurr">
+                        <h5>دلار آمریکا</h5>
+                        <img src="/Images/icons8-dollar-24.png" alt="">
+                    </div>
+                </div>
+
+                <div class="ItemCurrency">
+                    <div class="NameCurr">
+                        <img src="/Images/icons8-dollar-24.png" alt="">
+                        <h5 class="StabCurr">50.250 ریال</h5>
+                    </div>
+                    <div class="AmountCurr">
+                        <h5>دلار آمریکا</h5>
+                        <img src="/Images/icons8-dollar-24.png" alt="">
+                    </div>
+                </div>
+
+                <div class="ItemCurrency">
+                    <div class="NameCurr">
+                        <img src="/Images/icons8-dollar-24.png" alt="">
+                        <h5 class="DownCurr">50.250 ریال</h5>
+                    </div>
+                    <div class="AmountCurr">
+                        <h5>دلار آمریکا</h5>
+                        <img src="/Images/icons8-dollar-24.png" alt="">
+                    </div>
+                </div>
+
+                <div class="ItemCurrency">
+                    <div class="NameCurr">
+                        <img src="/Images/icons8-dollar-24.png" alt="">
+                        <h5 class="UpCurr">50.250 ریال</h5>
+                    </div>
+                    <div class="AmountCurr">
+                        <h5>دلار آمریکا</h5>
+                        <img src="/Images/icons8-dollar-24.png" alt="">
+                    </div>
+                </div>
+
+                <div class="ItemCurrency">
+                    <div class="NameCurr">
+                        <img src="/Images/icons8-dollar-24.png" alt="">
+                        <h5 class="UpCurr">50.250 ریال</h5>
+                    </div>
+                    <div class="AmountCurr">
+                        <h5>دلار آمریکا</h5>
+                        <img src="/Images/icons8-dollar-24.png" alt="">
+                    </div>
+                </div>
+
+                <div class="ItemCurrency">
+                    <div class="NameCurr">
+                        <img src="/Images/icons8-dollar-24.png" alt="">
+                        <h5 class="UpCurr">50.250 ریال</h5>
+                    </div>
+                    <div class="AmountCurr">
+                        <h5>دلار آمریکا</h5>
+                        <img src="/Images/icons8-dollar-24.png" alt="">
+                    </div>
+                </div>
+
+                <div class="ItemCurrency">
+                    <div class="NameCurr">
+                        <img src="/Images/icons8-dollar-24.png" alt="">
+                        <h5 class="UpCurr">50.250 ریال</h5>
+                    </div>
+                    <div class="AmountCurr">
+                        <h5>دلار آمریکا</h5>
+                        <img src="/Images/icons8-dollar-24.png" alt="">
+                    </div>
+                </div>
+
+                <div class="ItemCurrency">
+                    <div class="NameCurr">
+                        <img src="/Images/icons8-dollar-24.png" alt="">
+                        <h5 class="UpCurr">50.250 ریال</h5>
+                    </div>
+                    <div class="AmountCurr">
+                        <h5>دلار آمریکا</h5>
+                        <img src="/Images/icons8-dollar-24.png" alt="">
+                    </div>
+                </div>
+
+                <div class="ItemCurrency">
+                    <div class="NameCurr">
+                        <img src="/Images/icons8-dollar-24.png" alt="">
+                        <h5 class="UpCurr">50.250 ریال</h5>
+                    </div>
+                    <div class="AmountCurr">
+                        <h5>دلار آمریکا</h5>
+                        <img src="/Images/icons8-dollar-24.png" alt="">
+                    </div>
+                </div>
+
+                <div class="ItemCurrency">
+                    <div class="NameCurr">
+                        <img src="/Images/icons8-dollar-24.png" alt="">
+                        <h5 class="UpCurr">50.250 ریال</h5>
+                    </div>
+                    <div class="AmountCurr">
+                        <h5>دلار آمریکا</h5>
+                        <img src="/Images/icons8-dollar-24.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+  </div>
+
+
+    <!-- //////////////////////////////////////////////////////chart///////////////////////////////////////////////////         -->
+    <div class="chart-place">
+        <div class="titleChart">
+            <h2>تغییرات قیمت</h2>
+            <select name="Amount" id="Amount">
+                <option value="1">قیمت ورق سیاه</option>
+                <option value="2">قیمت ورق آلیاژ</option>
+                <option value="3">قیمت ورق گالوانیزه</option>
+                <option value="4">قیمت ورق رنگی</option>
+            </select>
+        </div>
+        <div class="Chart-Place">
+            <div id="myPlot"></div>
+        </div>
+    </div>
+    <div class="advertising">
+        <img class="blackCarbon" src="/Images/Painted-Black-Galvanized.png" alt="">
+        <h1>فروش ویژه ی ورق گالوانیزه و ورق سیاه</h1>
+        <img class="galvano" src="/Images/Galvanized-Sheets-Stacked-Leveled.png" alt="">
+    </div>
+     <!-- //////////////////////////////////////////////////////colleague///////////////////////////////////////////////////         -->
+
+     <div class="companeisPro">
+        <h3>شرکت های همکار</h3>
+        <div class="main-company">
+            
+            <div class="companySlides2">
+                <div class="place-items">
+                    <div class="boxCompany">
+                        <img src="/Images/billing.png" alt="company">
+                    </div>
+                    <div class="boxCompany">
+                        <img src="/Images/billing.png" alt="company">
+                    </div>
+                    <div class="boxCompany">
+                        <img src="/Images/billing.png" alt="company">
+                    </div>
+                    <div class="boxCompany">
+                        <img src="/Images/billing.png" alt="company">
+                    </div>
+                    <div class="boxCompany">
+                        <img src="/Images/billing.png" alt="company">
+                    </div>
+                </div>
+            </div>
+            <div class="companySlides2">
+                <div class="place-items">
+                    <div class="boxCompany">
+                        <img src="/Images/billing.png" alt="company">
+                    </div>
+                    <div class="boxCompany">
+                        <img src="/Images/billing.png" alt="company">
+                    </div>
+                    <div class="boxCompany">
+                        <img src="/Images/billing.png" alt="company">
+                    </div>
+                    <div class="boxCompany">
+                        <img src="/Images/billing.png" alt="company">
+                    </div>
+                    <div class="boxCompany">
+                        <img src="/Images/billing.png" alt="company">
+                    </div>
+                </div>
+            </div>
+          
+            
+          
+            <button class="LeftBtnCom" onclick="plusComBig(-1)">&#10094;</button>
+            <button  class="RightBtnCom" onclick="plusComBig(1)">&#10095;</button>
+        </div>
+    </div>
+ <!-- //////////////////////////////////////////////////////footer///////////////////////////////////////////////////         -->
+
+ <footer class="FooterStyle">
+    <div class="LogoIngo">
+      <div class="Info">
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, facilis! Commodi corporis laudantium culpa modi. Aliquam laudantium nisi, fuga vitae architecto quam nobis animi recusandae commodi cum unde omnis iure sequi! Esse,  amet!</p>
+      </div>
+      <div class="socialMedia">
+          <a href="/index.html" class="LogoFooter"><img src="/Images/Final Cs logo 1.png" alt="Logo"></a>
+          <div class="SocialMediaIcon">
+              <a href=""><img src="/Images/telegram.png" alt="telegram"></a>
+              <a href=""><img src="/Images/instagram.png" alt="instagram"></a>
+              <a href=""><img src="/Images/linkedin.png" alt="linkedin"></a>
+              </div>
+      </div>
+    </div>
+    <div class="Accesses">
+      <h3>دسترسی سریع</h3>
+      <div class="MainAccess">
+          <div class="SideAccess">
+              <div class="RowLink">
+                  <img src="/Images/1.png" alt="Icon">
+                  <a href="/Pages/Products.html">قیمت روز آهن</a>
+              </div>
+              <div class="RowLink">
+                  <img src="/Images/1.png" alt="Icon">
+                  <a href="/Pages/AboutUs.html">درباره ما</a>
+              </div>
+              <div class="RowLink">
+                  <img src="/Images/1.png" alt="Icon">
+                  <a href="">فرصت های شغلی</a>
+              </div>
+              <div class="RowLink">
+                  <img src="/Images/1.png" alt="Icon">
+                  <a href="/Pages/Contact.html">ارتباط با ما</a>
+              </div>
+              <div class="RowLink">
+                  <img src="/Images/1.png" alt="Icon">
+                  <a href="">وبلاگ</a>
+              </div>
+          </div>
+          <div class="SideAccess">
+              <div class="RowLink">
+                  <img src="/Images/1.png" alt="Icon">
+                  <a href="/Pages/Steels/BlackSteel.html">قیمت روز ورق سیاه</a>
+              </div>
+              <div class="RowLink">
+                  <img src="/Images/1.png" alt="Icon">
+                  <a href="/Pages/Steels/Alloy.html">قیمت روز ورق آلیاژی</a>
+              </div>
+              <div class="RowLink">
+                  <img src="/Images/1.png" alt="Icon">
+                  <a href="/Pages/Steels/Steel.html">قیمت روز ورق استیل</a>
+              </div>
+              <div class="RowLink">
+                  <img src="/Images/1.png" alt="Icon">
+                  <a href="/Pages/Steels/Galvanize.html">قیمت روز ورق گالوانیزه</a>
+              </div>
+              <div class="RowLink">
+                  <img src="/Images/1.png" alt="Icon">
+                  <a href="/Pages/Steels/ColorFul.html">قیمت روز ورق رنگی</a>
+              </div>
+              <div class="RowLink">
+                  <img src="/Images/1.png" alt="Icon">
+                  <a href="/Pages/Steels/OilS.html">قیمت روز ورق روغنی</a>
+              </div>
+          </div>
+      </div>
+    </div>
+    <div class="Certificate">
+      <h3>نماد های اطمینان</h3>
+    </div>
+ </footer>
+ <div class="Footer2">
+  <h5>تمامی حقوق برای کربن استیل محفوظ است</h5>
+ </div>
+
+    </div>
+</body>
+<script src="../Js/Tab.js"></script>
+<script src="../Js/Chart.js"></script>
+<script src="../Js/SlidePro.js"></script>
+<script src="../Js/MobileNav.js"></script>
+</html>

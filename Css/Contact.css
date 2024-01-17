@@ -1,0 +1,205 @@
+.contact-main{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    direction: rtl;
+    border-radius: 10px;
+    background: url(/Images/v748-toon-107.jpg)no-repeat center center/cover;
+    flex-wrap: wrap;
+}
+.contact-main .Right-contact{
+    width: 28rem;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    border-radius: 0 10px 10px 0;
+    position: relative;
+}
+.lineBetween {
+    width: 1px;
+    height: 90%;
+    background-color: rgba(62, 62, 62, 0.573);
+    position: absolute;
+    left: 0;
+}
+.contact-main .Left-contact{
+    width: 28rem;
+    height: 40rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: right;
+    padding: 1rem 2rem;
+}
+.contact-main .Right-contact .logoAndTitle{
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.contact-main .Right-contact .logoAndTitle img{
+    width: 6rem;
+}
+.contact-main .Right-contact .logoAndTitle h3{
+    width: 15rem;
+}
+.contact-main .Right-contact .Address{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: right;
+    height:3rem;
+    margin-top: 1rem;
+}
+.contact-main .Right-contact .Address img{
+    width: 1.5rem;
+    margin-left: 10px;
+}
+.contact-main .Right-contact .Address a{
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+.contact-main .Right-contact .Address .boldText{
+  font-size: 17px;
+}
+.contact-main .Right-contact .Map{
+  width: 80%;
+  border-radius: 5px;
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;  ;
+ cursor: pointer;
+}
+
+.contact-main .Left-contact h3{
+    width: 100%;
+    text-align: right ;
+}
+.contact-main .Left-contact input{
+    width: 100%;
+    text-align: right ;
+    margin-top: 1rem;
+    height: 3rem;
+    border-radius: 10px;
+    padding-right: 1rem;
+    font-family: "Shabnam";
+    border: 1px solid rgb(97, 97, 97);
+
+}
+.contact-main .Left-contact select{
+    width: 100%;
+    text-align: right ;
+    margin-top: 1rem;
+    height: 3rem;
+    border-radius: 10px;
+    border: 1px solid rgb(97, 97, 97);
+    padding-right: 1rem;
+    font-family: "Shabnam";
+
+}
+.contact-main .Left-contact textarea{
+    width: 100%;
+    text-align: right ;
+    margin-top: 1rem;
+    height: 8rem;
+    border-radius: 10px;
+    border: 1px solid rgb(97, 97, 97);
+    padding-right: 1rem;
+    padding-top: 1rem;
+    font-family: "Shabnam";
+
+}
+.contact-main .Left-contact .requestBtn{
+    width: 100%;
+    text-align: center ;
+    margin-top: 3rem;
+    height: 3rem;
+    border-radius: 10px;
+    font-family: "Shabnam";
+    background-color: black;
+    color: #fff;
+
+}
+.MobileNavbarPlace{
+    display: none;
+  }
+  
+  .ContactMain{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+  .ContactMain h3{
+    width: 90%;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 10px;
+   
+}
+.ContactMain .explain-products{
+    width: 90%;
+    padding: 0 1rem 1rem 1rem;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 123, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+   
+}
+.ContactMain .explain-products .title{
+    width: 70%;
+    height: 2.5rem;
+    border-radius: 0 0 10px 10px;
+    background-color:#D2EBFF;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ContactMain .explain-products .main-explain{
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    direction: rtl;
+    text-align: right;
+}
+
+   /* /////////////////////////////////mobile////////////////////////////////////////// */
+
+   @media (max-width: 565px) {
+    .MobileNavbarPlace{
+        display: flex;
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+      }
+      .slideBar{
+        display: none;
+      }
+      .ContactMain{
+        width: 100%;
+      }
+      .contact-main{
+        padding: 10px;
+      }
+      .contact-main .Right-contact{
+        width: 100%;
+      }
+   }

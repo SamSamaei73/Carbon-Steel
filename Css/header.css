@@ -1,0 +1,313 @@
+
+/* //////////////////////////////////////////////Top-Head//////////////////////////////////////////////// */
+
+.Top-Head {
+    width: 100%;
+    padding: 5px;
+    height: 2.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #B8030A;
+
+}
+.Top-Head .topTitle{
+    width: 30rem;
+    text-align: center;
+    font-family: "Shabnam-Bold";
+    font-size: 17px;
+}
+.Top-Head .line{
+    width: 10px;
+    height: 4px;
+    background-color: #B8030A;
+
+}
+
+/* //////////////////////////////////////////////Navbar//////////////////////////////////////////////// */
+
+
+.Navbar{
+    width: 100%;
+    padding: 10px 25px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    direction: rtl;
+    flex-wrap: wrap;
+
+}
+.Navbar .logo{
+    width: 6.5rem;
+    height: 7rem;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    position: relative;
+    margin: 0 1rem;
+   
+}
+.Navbar .logo .Logo_img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.Navbar .logo .Logo_img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.Navbar .searchBox{
+    height: 3rem;
+    width: 25%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: #E5E5E5;
+    border-radius: 10px;
+    margin: 0 15px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+.Navbar .searchBox .searchInput{
+    width: 90%;
+    height: 2rem;
+    border: none;
+    text-align: right;
+    background-color: #7e282b00;
+    padding-right: 1rem;
+
+}
+.Navbar .searchBox .searchInput:focus{
+    outline: none;
+
+}
+.Navbar .searchBox .searchInput::placeholder{
+    font-family: "Shabnam";
+    color: rgb(159, 152, 152);
+    font-size: 12px;
+
+}
+.Navbar .searchBox .img-Search{
+    width: 18px;
+
+}
+.Navbar .TabInfo{
+    width: 30rem;
+    height: 5rem;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 0 15px;
+
+}
+.Navbar .sign-in{
+    width: 15rem;
+    height: 7rem;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.Navbar .sign-in .signInbutton{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+
+}
+.Navbar .sign-in .signInbutton .store{
+    width: 6rem;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 9px 8px 0px rgba(0,0,0,0.1);
+         cursor: pointer;
+    font-size: 16px;
+    background-color: #FFFFFF;
+
+}
+.Navbar .sign-in .signInbutton .store:active{
+    box-shadow: none;
+    background-color: #E5E5E5;
+}
+.Navbar .sign-in .signInbutton .SignUp:active{
+    box-shadow: none;
+    background-color: #E5E5E5;
+}
+.Navbar .sign-in .signInbutton .store img{
+    width: 20px;
+    height: 20px;
+    margin-left: 0.5rem;
+
+}
+.Navbar .sign-in .signInbutton .SignUp img{
+    width: 15px;
+    height: 15px;
+    margin-left: 0.5rem;
+
+}
+.Navbar .sign-in .signInbutton .SignUp{
+    width: 8rem;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 9px 8px 0px rgba(0,0,0,0.1);
+    cursor: pointer;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    color: black;
+
+}
+.Navbar .sign-in .call{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0px 9px 8px 0px rgba(0,0,0,0.1);
+    cursor: pointer;
+    background-color: #0C416D;
+    padding: 0 10px;
+    font-family: "Nazanin";
+    color: #ffff;
+
+
+}
+.Navbar .sign-in .call:active{
+   
+    box-shadow: none;
+    background-color: #E5E5E5;
+
+}
+.Navbar .sign-in .call img{
+    width: 15px;
+    height: 15px;
+    margin-left: 0.5rem;
+
+}
+
+
+/* /////////////////////////////////////////////Tab////////////////////////////////////////// */
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    background-color: #cd272700;
+
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab a {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 15px;
+    margin: 10px;
+    font-family: "Shabnam" ;
+    border-bottom: 4px solid #ffffff00;
+    text-decoration: none;
+    color: #0a0909;
+
+
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab a:hover {
+    border-bottom: 4px solid #0a0909;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab a.active {
+    border-bottom: 4px solid #B8030A;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+
+
+
+
+
+  /* ////////////////////////////////displayMobile/////////////////////////////////////// */
+
+  .Top-Head .CompName{
+    display: none;
+  }
+  .Top-Head a{
+    display: none;
+  }
+  .MobileLogo {
+    display: none;
+  }
+
+  /* /////////////////////////////////mobile////////////////////////////////////////// */
+
+  @media (max-width: 565px) {
+    .Top-Head {
+        padding: 1px;
+        height: 5rem;
+        justify-content: space-evenly;
+        }
+    .Top-Head a{
+        display: flex;
+        color: #0A426D;
+        text-decoration: none;
+        align-items: center;
+        justify-content: center;
+        }
+    .Top-Head .MobileLogo{
+        display: flex;
+        }
+    .Top-Head a .boldNumber{
+        font-size: 20px;
+        }
+     .Top-Head .line{
+            display: none;
+        
+        }
+     .Top-Head .topTitle{
+            display: none;
+        
+        }
+        .Top-Head .CompName{
+            width: 10rem;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .Top-Head .CompName h6{
+        color: #0A426D;
+            
+        }
+        .Top-Head .CompName .ColorRed{
+        color: #B8030A;
+            
+        }
+  
+  }
+
+

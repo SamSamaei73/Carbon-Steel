@@ -1,0 +1,89 @@
+.Login-main{
+    width: 100%;
+    height: 30rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    direction: rtl;
+    border-radius: 10px;
+    background: url(/Images/v748-toon-107.jpg)no-repeat center center/cover;
+    margin-bottom: 3rem;
+}
+.Login-main .box-login{
+   width: 28rem;
+   height: 25rem;
+   background-color: #fff;
+   border-radius: 10px;
+  box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+
+}
+.Login-main .box-login .Logo-Title{
+   width: 90%;
+   height: 8rem;
+   border-bottom: 1px solid rgba(110, 110, 110, 0.559);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 1rem;
+
+}
+.Login-main .box-login .Logo-Title img{
+  width: 6rem;
+  margin-right: 2rem;
+}
+.Login-main .box-login h2{
+  width: 90%;
+  text-align: right;
+}
+.Login-main .box-login h4{
+  width: 90%;
+  text-align: right;
+  margin-top: 10px;
+}
+.Login-main .box-login input{
+  width: 90%;
+  height: 3rem;
+  border-radius: 10px;
+  border: 1px solid rgba(115, 115, 115, 0.473);
+  font-family: "Shabnam";
+  padding-right: 1rem;
+  margin-top: 1rem;
+}
+.Login-main .box-login .LoginBtn{
+  width: 90%;
+  height: 3rem;
+  border-radius: 10px;
+  font-family: "Shabnam";
+  padding-right: 1rem;
+  margin-top: 1rem;
+  background-color: black;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+}
+.Login-main .box-login .LoginBtn:hover{
+  background-color: #B80C09;
+}
+
+.acceptInput{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.acceptInput .H4Login{
+  width: 14rem !important;
+}
+.acceptInput a{
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  margin-top: 10px;
+}

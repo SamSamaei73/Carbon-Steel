@@ -1,0 +1,588 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/Images/Final Cs logo 1.png">
+    <link rel="stylesheet" href="/Css/Body.css">
+    <link rel="stylesheet" href="/Css/header.css">
+    <link rel="stylesheet" href="/Css/Main.css">
+    <link rel="stylesheet" href="/Css/Products.css">
+    <link rel="stylesheet" href="/Css/UserPage.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <title>صفحه کاربری</title>
+</head>
+<body>
+    <div class="container">
+         <!-- /* //////////////////////////////////////////////Top-Head//////////////////////////////////////////////// */ -->
+
+         <header class="Top-Head">
+            <div class="line"></div>
+            <h4 class="topTitle">خرید با باربری رایگان</h4>
+            <div class="line"></div>
+            <h5>sdffs</h5>
+        </header>
+          <!-- /* //////////////////////////////////////////////Navbar//////////////////////////////////////////////// */ -->
+
+
+          <div class="Navbar">
+            <a  href="/index.html" class="logo">
+                <img class="Logo_img" src="/Images/Final Cs logo 1.png" alt="LOGO">
+            </a>
+            <div class="searchBox">
+                <img class="img-Search"  src="/Images/icons8-search-26.png" alt="search">
+                <input class="searchInput" type="search" placeholder="نام یا ویژگی محصول مورد نظر خود را وارد کنید">
+            </div>
+            <div class="TabInfo">
+                <div class="tab">
+                    <a class="tablinks" href="/Pages/Contact.html" >تماس باما</a>
+                    <a class="tablinks" href="/Pages/Article.html" >دانشنامه</a>
+                    <a class="tablinks " href="/Pages/Products.html" >محصولات</a>
+                    <a class="tablinks " href="/index.html" >صفحه نخست</a>
+                  </div>
+            </div>
+            <div class="sign-in">
+                <div class="signInbutton">
+                    <div class="SignUp">
+                        <img src="/Images/icons8-search-26.png" alt="">
+                        <h6>ورود | ثبت نام</h6>
+                    </div>
+                    <div class="store">
+                        <img src="/Images/checkout.png" alt="">
+                        <h6>سبد خرید</h6>
+                    </div>
+                   
+                </div>
+                <div class="call">
+                    <img src="/Images/icons8-search-26.png" alt="">
+                    <h5>05523663387</h5>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="MainFirstPage">
+
+
+
+                <div class="PartUser">
+                    <div class="title-products">
+                       <a href="/index.html">کربن استیل <span class="progress"> ></span></a>
+                       <a href="/Pages/LoginPage.html"> پنل کاربری<span class="progress"> ></span></a>
+                       <div class="lineHead"></div>
+                    </div>
+                    <div class="User-Place">
+                        <div class="Tab-Details">
+                            <h4 class="Name">مهرداد خالدی</h4>
+                            <h4 class="Number">۰۹۰۱۱۷۳۹۸۹۵</h4>
+                            <h5 class="Listuser" onclick="openUser(event, 'Pish')" id="defaultUser">پیشخوان</h5>
+                            <h5 class="Listuser" onclick="openUser(event, 'List')">لیست قیمت محصولات برگزیده</h5>
+                            <h5 class="Listuser" onclick="openUser(event, 'Bill2')">پیش فاکتورهای من</h5>
+                            <div class="lineTab"></div>
+                            <h5 class="Listuser" onclick="openUser(event, 'Edit2')">ویرایش حساب کاربری</h5>
+                            <h5>خروج</h5>
+
+                        </div>
+                        <div id="Pish" class="Info-Tab">
+                             <div class="PageStyle Pishkhan">
+                                <h2>پیشخوان</h2>
+                                <div class="doubleItem">
+                                    <h3>لیست قیمت محصولات برگزیده</h3>
+                                    <h3>پیش فاکتورهای من</h3>
+                                </div>
+                                <h3>ویرایش حساب کاربری</h3>
+
+                             </div>
+                        </div>
+                        <div id="List" class="Info-Tab ExtraHight">
+                            <div class="PageStyle">
+
+                                <div class="HeadForTable">
+                                    <h5>لیست قیمت محصولات برگزیده</h5>
+                                    <div class="ItemUser">
+                                        <h5>آرشیو قیمت</h5>
+                                        <img src="/Images/delivery.png" alt="archive">
+                                    </div>
+
+                                </div>
+
+                                <div class="HeadOfTable">
+                                    <img src="/Images/icons8-christmas-star-24.png" alt="star">
+                                    <h6>عنوان محصول</h6>
+                                    <h6>محل تحویل</h6>
+                                    <h6>قیمت (ریال)</h6>
+                                    <h6>تغییرات (ریال)</h6>
+                                    <h6>افزودن به فاکتور</h6>
+                                </div>
+                                <a href="/Pages/InfoSteels.html" class="RowOfUserT">
+                                    <img src="/Images/fill-star.png" alt="star">
+                                    <h5>ورق سیاه ۲ میلی متر رول عرض ۱ فولاد مبارکه</h5>
+                                    <h5>تهران</h5>
+                                    <h5>۲۰،۸۰۰</h5>
+                                    <h5>۱۰۰ <img class="ArowUser" src="/Images/redArrowDown.png" alt="trend"></h5>
+                                    <h5><img class="Add" src="/Images/AddActive.png" alt="add"></h5>
+                                </a>
+                                <a href="/Pages/InfoSteels.html" class="RowOfUserT">
+                                    <img src="/Images/fill-star.png" alt="star">
+                                    <h5>ورق سیاه ۲ میلی متر رول عرض ۱ فولاد مبارکه</h5>
+                                    <h5>تهران</h5>
+                                    <h5>۲۰،۸۰۰</h5>
+                                    <h5>۱۰۰ <img class="ArowUser" src="/Images/redArrowDown.png" alt="trend"></h5>
+                                    <h5><img class="Add" src="/Images/AddActive.png" alt="add"></h5>
+                                </a>
+                                <a href="/Pages/InfoSteels.html" class="RowOfUserT">
+                                    <img src="/Images/fill-star.png" alt="star">
+                                    <h5>ورق سیاه ۲ میلی متر رول عرض ۱ فولاد مبارکه</h5>
+                                    <h5>تهران</h5>
+                                    <h5>۲۰،۸۰۰</h5>
+                                    <h5>۱۰۰ <img class="ArowUser" src="/Images/redArrowDown.png" alt="trend"></h5>
+                                    <h5><img class="Add" src="/Images/AddActive.png" alt="add"></h5>
+                                </a>
+                                <a href="/Pages/InfoSteels.html" class="RowOfUserT">
+                                    <img src="/Images/fill-star.png" alt="star">
+                                    <h5>ورق سیاه ۲ میلی متر رول عرض ۱ فولاد مبارکه</h5>
+                                    <h5>تهران</h5>
+                                    <h5>۲۰،۸۰۰</h5>
+                                    <h5>۱۰۰ <img class="ArowUser" src="/Images/redArrowDown.png" alt="trend"></h5>
+                                    <h5><img class="Add" src="/Images/AddActive.png" alt="add"></h5>
+                                </a>
+                                <a href="/Pages/InfoSteels.html" class="RowOfUserT">
+                                    <img src="/Images/fill-star.png" alt="star">
+                                    <h5>ورق سیاه ۲ میلی متر رول عرض ۱ فولاد مبارکه</h5>
+                                    <h5>تهران</h5>
+                                    <h5>۲۰،۸۰۰</h5>
+                                    <h5>۱۰۰ <img class="ArowUser" src="/Images/redArrowDown.png" alt="trend"></h5>
+                                    <h5><img class="Add" src="/Images/AddActive.png" alt="add"></h5>
+                                </a>
+                                <a href="/Pages/InfoSteels.html" class="RowOfUserT">
+                                    <img src="/Images/fill-star.png" alt="star">
+                                    <h5>ورق سیاه ۲ میلی متر رول عرض ۱ فولاد مبارکه</h5>
+                                    <h5>تهران</h5>
+                                    <h5>۲۰،۸۰۰</h5>
+                                    <h5>۱۰۰ <img class="ArowUser" src="/Images/redArrowDown.png" alt="trend"></h5>
+                                    <h5><img class="Add" src="/Images/AddActive.png" alt="add"></h5>
+                                </a>
+                                <a href="/Pages/InfoSteels.html" class="RowOfUserT">
+                                    <img src="/Images/fill-star.png" alt="star">
+                                    <h5>ورق سیاه ۲ میلی متر رول عرض ۱ فولاد مبارکه</h5>
+                                    <h5>تهران</h5>
+                                    <h5>۲۰،۸۰۰</h5>
+                                    <h5>۱۰۰ <img class="ArowUser" src="/Images/redArrowDown.png" alt="trend"></h5>
+                                    <h5><img class="Add" src="/Images/AddActive.png" alt="add"></h5>
+                                </a>
+                                <a href="/Pages/InfoSteels.html" class="RowOfUserT">
+                                    <img src="/Images/fill-star.png" alt="star">
+                                    <h5>ورق سیاه ۲ میلی متر رول عرض ۱ فولاد مبارکه</h5>
+                                    <h5>تهران</h5>
+                                    <h5>۲۰،۸۰۰</h5>
+                                    <h5>۱۰۰ <img class="ArowUser" src="/Images/redArrowDown.png" alt="trend"></h5>
+                                    <h5><img class="Add" src="/Images/AddActive.png" alt="add"></h5>
+                                </a>
+                               
+                                <div class="paginationuSER">
+                                    <div class="pages">
+                                        <h5>صفحه ها :</h5>
+                                        <h5 class="activePage">1</h5>
+                                        <h5>2</h5>
+                                        <h5>3</h5>
+                                        <h5>4</h5>
+                                        <h5>5</h5>
+                                        <h5>6</h5>
+                                        <h5>7</h5>
+                                    </div>
+                                    <div class="Actions">
+                                        <div class="ActionKind">
+                                            <h4>دانلود</h4>
+                                            <img src="/Images/Iconfeather-download.png" alt="">
+                                        </div>
+                                        <div class="ActionKind">
+                                            <h4>دانلود</h4>
+                                            <img src="/Images/Iconfeather-printer.png" alt="">
+                                        </div>
+                                    </div>
+                    
+                                </div>
+                            
+                               
+
+
+                             </div>
+                        <div id="Bill" class="Info-Tab">
+                            <div class="PageStyle BillEdit">
+                                <h3>پیش فاکتورهای من</h3>
+                                <div class="ListBill">
+                                    <h5>کد پیش فاکتور</h5>
+                                    <div class="Row-Bill">
+                                        <h6>123442324</h6>
+                                        <button>ویرایش</button>
+                                        <button>دریافت پیش فاکتور</button>
+                                    </div>
+                                    <div class="Row-Bill">
+                                        <h6>123442324</h6>
+                                        <button>ویرایش</button>
+                                        <button>دریافت پیش فاکتور</button>
+                                    </div>
+                                    <div class="Row-Bill">
+                                        <h6>123442324</h6>
+                                        <button>ویرایش</button>
+                                        <button>دریافت پیش فاکتور</button>
+                                    </div>
+                                    <div class="Row-Bill">
+                                        <h6>123442324</h6>
+                                        <button>ویرایش</button>
+                                        <button>دریافت پیش فاکتور</button>
+                                    </div>
+                                    <div class="Row-Bill">
+                                        <h6>123442324</h6>
+                                        <button>ویرایش</button>
+                                        <button>دریافت پیش فاکتور</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="Edit" class="Info-Tab">
+                            <div class="PageStyle EditUser">
+                                <h3>ویرایش حساب کاربری</h3>
+                                <form action="" class="Input-Edit">
+                                    <input type="text" placeholder="نام">
+                                    <input type="text" placeholder="نام خانوادگی">
+                                    <input type="text" placeholder="نام سازمان">
+                                    <input type="text" readonly>
+                                    <input type="text" placeholder="شناسنامه/شناسه ثبت">
+                                    <input type="text" placeholder="تلفن ثابت">
+                                    <textarea name="" id="" cols="30" rows="10" placeholder="آدرس"></textarea>
+                                </form>
+                                <button>ثبت اطلاعات</button>
+                            </div>
+                        </div>
+                       </div>
+                       <div id="Bill2" class="Info-Tab">
+                           <div class="PageStyle BillEdit">
+                               <h3>پیش فاکتورهای من</h3>
+                               <div class="ListBill">
+                                   <div class="TitleOfBills">
+                                    <h6>کد پیش فاکتور</h6>
+                                    <h6>تام شخص / شرکت</h6>
+                                    <h6>تاریخ</h6>
+                                   </div>
+                                   <div class="Row-Bill">
+                                       <h6>123442324</h6>
+                                       <h6>مهرداد خالدی</h6>
+                                       <h6>۱۴۰۲/۱۰/۲۱</h6>
+                                       <a href="/Pages/Cpanel/EditBills.html">ویرایش</a>
+                                       <a>دریافت پیش فاکتور</a>
+                                   </div>
+                                   <div class="Row-Bill">
+                                       <h6>123442324</h6>
+                                       <h6>مهرداد خالدی</h6>
+                                       <h6>۱۴۰۲/۱۰/۲۱</h6>
+                                       <a href="/Pages/Cpanel/EditBills.html">ویرایش</a>
+                                       <a>دریافت پیش فاکتور</a>
+                                   </div>
+                                   <div class="Row-Bill">
+                                       <h6>123442324</h6>
+                                       <h6>مهرداد خالدی</h6>
+                                       <h6>۱۴۰۲/۱۰/۲۱</h6>
+                                       <a href="/Pages/Cpanel/EditBills.html">ویرایش</a>
+                                       <a>دریافت پیش فاکتور</a>
+                                   </div>
+                                   <div class="Row-Bill">
+                                       <h6>123442324</h6>
+                                       <h6>مهرداد خالدی</h6>
+                                       <h6>۱۴۰۲/۱۰/۲۱</h6>
+                                       <a href="/Pages/Cpanel/EditBills.html">ویرایش</a>
+                                       <a>دریافت پیش فاکتور</a>
+                                   </div>
+                                   <div class="Row-Bill">
+                                       <h6>123442324</h6>
+                                       <h6>مهرداد خالدی</h6>
+                                       <h6>۱۴۰۲/۱۰/۲۱</h6>
+                                       <a href="/Pages/Cpanel/EditBills.html">ویرایش</a>
+                                       <a>دریافت پیش فاکتور</a>
+                                   </div>
+                                  
+                                   
+                               </div>
+                           </div>
+                       </div>
+                       <div id="Edit2" class="Info-Tab">
+                           <div class="PageStyle EditUser">
+                               <h3>ویرایش حساب کاربری</h3>
+                               <!-- ////class="EditsPlace"// -->
+                               <div class="EditsPlaceHiden">
+
+
+                                  <div class="UserProfile">
+                                      <h5>پروفایل کاربری</h5>
+                                      <div class="InfoRow">
+                                        <h6>نام و نام خانوادگی</h6>
+                                        <h6>مهرداد خالدی</h6>
+                                      </div>
+                                      <div class="InfoRow">
+                                        <h6>شماره همراه</h6>
+                                        <h6> ۰۹۱۲۴۹۲۸۷۴۷</h6>
+                                      </div>
+                                      <div class="InfoRow">
+                                        <h6>کدملی</h6>
+                                        <h6> ۰۰۱۳۳۲۸۸۳۷</h6>
+                                      </div>
+                                      <div class="InfoRow">
+                                        <h6>تلفن ثابت</h6>
+                                        <h6> ۶۶۹۳۲۷۸۲</h6>
+                                      </div>
+                                      <div class="InfoRow">
+                                        <h6>نام سازمان</h6>
+                                        <h6> فولاد مبارکه</h6>
+                                      </div>
+                                      <div class="addresBox">
+                                        <h6> آدرس</h6>
+                                        <h6 class="InfoAddres"> فولادمبارکه مبارکه مبارکه مبارکهمبارکهمبارکهمبارکهمبارکه مبارکه</h6>
+                                      </div>
+                                      <button class="ProfileBtnEdit">ویرایش</button>
+                                  </div>
+
+                                  <div class="AddUserProfile">
+                                    <h5>پروفایل های ثبت شده</h5>
+                                    <div class="UsersPlace">
+
+                                        <div class="RowAdd">
+                                            <h6>مهرداد خالدی</h6>
+                                            <h6>شخصی</h6>
+                                            <button>حذف</button>
+                                            <button>ویرایش</button>
+                                        </div>
+                                        <div class="RowAdd">
+                                            <h6>مهرداد خالدی</h6>
+                                            <h6>شخصی</h6>
+                                            <button>حذف</button>
+                                            <button>ویرایش</button>
+                                        </div>
+                                        <div class="RowAdd">
+                                            <h6>مهرداد خالدی</h6>
+                                            <h6>شخصی</h6>
+                                            <button>حذف</button>
+                                            <button>ویرایش</button>
+                                        </div>
+                                        <div class="RowAdd">
+                                            <h6>مهرداد خالدی</h6>
+                                            <h6>شخصی</h6>
+                                            <button>حذف</button>
+                                            <button>ویرایش</button>
+                                        </div>
+                                        <div class="RowAdd">
+                                            <h6>مهرداد خالدی</h6>
+                                            <h6>شخصی</h6>
+                                            <button>حذف</button>
+                                            <button>ویرایش</button>
+                                        </div>
+                                        <div class="RowAdd">
+                                            <h6>مهرداد خالدی</h6>
+                                            <h6>شخصی</h6>
+                                            <button>حذف</button>
+                                            <button>ویرایش</button>
+                                        </div>
+                                        <div class="RowAdd">
+                                            <h6>مهرداد خالدی</h6>
+                                            <h6>شخصی</h6>
+                                            <button>حذف</button>
+                                            <button>ویرایش</button>
+                                        </div>
+                                        <div class="RowAdd">
+                                            <h6>مهرداد خالدی</h6>
+                                            <h6>شخصی</h6>
+                                            <button>حذف</button>
+                                            <button>ویرایش</button>
+                                        </div>
+                                        <div class="RowAdd">
+                                            <h6>مهرداد خالدی</h6>
+                                            <h6>شخصی</h6>
+                                            <button>حذف</button>
+                                            <button>ویرایش</button>
+                                        </div>
+                                        <div class="RowAdd">
+                                            <h6>مهرداد خالدی</h6>
+                                            <h6>شخصی</h6>
+                                            <button>حذف</button>
+                                            <button>ویرایش</button>
+                                        </div>
+
+                                    </div>
+                                    <button class="ProfileBtnEdit">افزودن پروفایل</button>
+
+                                  </div>
+                               </div>
+                               <div class="inputEdits">
+
+                                <div class="TitleOfEdits">
+                                    <div class="Steel-tab">
+                                        <button class="tabsteel" onclick="openSteel(event, 'black')" id="defaultOpen2">شخصی</button>
+                                        <button class="tabsteel" onclick="openSteel(event, 'alloy')"> شرکت / موسسه</button>
+                                      </div>
+                                </div>
+
+                                <div id="black" class="tabSteels tables">
+                                    <div class="FormInputs">
+                                        <div class="InputsPlaceEdit">
+                                            <input class="EditInfoInput" type="text" placeholder="نام">
+                                            <input class="EditInfoInput" type="text" placeholder="نام خانوادگی">
+                                            <input class="EditInfoInput" type="text" placeholder="نام سازمان">
+                                            <input class="EditInfoInput" type="text" placeholder="تلفن همراه">
+                                            <input class="EditInfoInput" type="text" placeholder="کدملی">
+                                            <input class="EditInfoInput" type="text" placeholder="تلفن ثابت">
+                                            <textarea class="bigEditInfoInput" placeholder="آدرس کامل" name="" id="" cols="30" rows="10"></textarea>
+                                            <button class="btnEditSave">ثبت اطلاعات</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="alloy" class="tables tabSteels">
+                                    <div class="FormInputs">
+                                        <div class="InputsPlaceEdit">
+                                            <input class="EditInfoInput" type="text" placeholder="نام سازمان">
+                                            <input class="EditInfoInput" type="text" placeholder="کد اقتصادی">
+                                            <input class="EditInfoInput" type="text" placeholder="شناسه ملی">
+                                            <input class="EditInfoInput" type="text" placeholder="تلفن همراه">
+                                            <input class="EditInfoInput" type="text" placeholder="شماره ثبت">
+                                            <input class="EditInfoInput" type="text" placeholder="تلفن ثابت">
+                                            <textarea class="bigEditInfoInput" placeholder="آدرس کامل" name="" id="" cols="30" rows="10"></textarea>
+                                            <button class="btnEditSave">ثبت اطلاعات</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                               
+
+
+                               </div>
+                           </div>
+                       </div>
+                       
+                       
+
+                    
+                </div>
+
+
+         
+        
+
+ 
+        </div>
+                
+      
+        <!-- //////////////////////////////////////////////////////footer///////////////////////////////////////////////////         -->
+
+        <footer class="FooterStyle">
+            <div class="LogoIngo">
+            <div class="Info">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, facilis! Commodi corporis laudantium culpa modi. Aliquam laudantium nisi, fuga vitae architecto quam nobis animi recusandae commodi cum unde omnis iure sequi! Esse,  amet!</p>
+            </div>
+            <div class="socialMedia">
+                <a href="/index.html" class="LogoFooter"><img src="/Images/Final Cs logo 1.png" alt="Logo"></a>
+                <div class="SocialMediaIcon">
+                    <a href=""><img src="/Images/telegram.png" alt="telegram"></a>
+                    <a href=""><img src="/Images/instagram.png" alt="instagram"></a>
+                    <a href=""><img src="/Images/linkedin.png" alt="linkedin"></a>
+                    </div>
+            </div>
+            </div>
+            <div class="Accesses">
+            <h3>دسترسی سریع</h3>
+            <div class="MainAccess">
+                <div class="SideAccess">
+                    <div class="RowLink">
+                        <img src="/Images/1.png" alt="Icon">
+                        <a href="/Pages/Products.html">قیمت روز آهن</a>
+                    </div>
+                    <div class="RowLink">
+                        <img src="/Images/1.png" alt="Icon">
+                        <a href="">درباره ما</a>
+                    </div>
+                    <div class="RowLink">
+                        <img src="/Images/1.png" alt="Icon">
+                        <a href="">فرصت های شغلی</a>
+                    </div>
+                    <div class="RowLink">
+                        <img src="/Images/1.png" alt="Icon">
+                        <a href="/Pages/Contact.html">ارتباط با ما</a>
+                    </div>
+                    <div class="RowLink">
+                        <img src="/Images/1.png" alt="Icon">
+                        <a href="">وبلاگ</a>
+                    </div>
+                </div>
+                <div class="SideAccess">
+                    <div class="RowLink">
+                        <img src="/Images/1.png" alt="Icon">
+                        <a href="/Pages/Steels/BlackSteel.html">قیمت روز ورق سیاه</a>
+                    </div>
+                    <div class="RowLink">
+                        <img src="/Images/1.png" alt="Icon">
+                        <a href="/Pages/Steels/Alloy.html">قیمت روز ورق آلیاژی</a>
+                    </div>
+                    <div class="RowLink">
+                        <img src="/Images/1.png" alt="Icon">
+                        <a href="">قیمت روز ورق استیل</a>
+                    </div>
+                    <div class="RowLink">
+                        <img src="/Images/1.png" alt="Icon">
+                        <a href="/Pages/Steels/Galvanize.html">قیمت روز ورق گالوانیزه</a>
+                    </div>
+                    <div class="RowLink">
+                        <img src="/Images/1.png" alt="Icon">
+                        <a href="/Pages/Steels/ColorFul.html">قیمت روز ورق رنگی</a>
+                    </div>
+                    <div class="RowLink">
+                        <img src="/Images/1.png" alt="Icon">
+                        <a href="">قیمت روز ورق روغنی</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="Certificate">
+            <h3>نماد های اطمینان</h3>
+            </div>
+        </footer>
+        <div class="Footer2">
+        <h5>تمامی حقوق برای کربن استیل محفوظ است</h5>
+        </div>    
+    </div>
+
+
+        <!-- ////////Alert////// -->
+
+        <!-- <div class="AlertEdit">
+            <div class="boxAlert">
+                <img src="/Images/Final Cs logo 1.png" alt="">
+                <h4>اطلاعات شما با <span class="successfully">موفقیت</span> ثبت گردید.</h4>
+
+            </div>
+         </div> -->
+
+        <!-- <div class="AlertEdit">
+            <div class="boxAlert">
+                <img src="/Images/Final Cs logo 1.png" alt="">
+                <h4>آیا از حذف این پروفایل به نام <span>مهرداد خالدی</span> مطمئن هستید ؟</h4>
+                <div class="btnAlertPlace">
+                    <button class="AcceptDelete">بله،حذف شود</button>
+                    <button>خیر،حذف نشود</button>
+                </div>
+
+            </div>
+         </div> -->
+
+        <!-- <div class="AlertEdit">
+            <div class="boxAlert">
+                <img src="/Images/Final Cs logo 1.png" alt="">
+                <h4 style="color: #00BE4D;">.پروفایل مورد نظر با موفقیت <span class="deleteColor">حذف</span> گردید</h4>
+                <div class="btnAlertPlace">
+                    <button style="width: 16rem;">بازگشت به صفحه حساب های کاربری</button>
+                </div>
+
+            </div>
+         </div> -->
+
+    </div>
+</body>
+<script src="../../Js/TabUser.js"></script>
+<script src="../../Js/Tab.js"></script>
+</html>

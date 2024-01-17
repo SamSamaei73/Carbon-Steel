@@ -1,0 +1,729 @@
+.PartUser{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.lineHead {
+    border: 1px solid rgba(128, 128, 128, 0.461);
+    width: 72%;
+ }
+ .User-Place{
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 1rem 0;
+    margin-top: 1rem;
+    direction: rtl;
+    margin-bottom: 3rem;
+ }
+ .User-Place .Tab-Details{
+    width: 21rem;
+    height: 28rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: inset 0px 0px 14px 11px rgba(0,0,0,0.1);
+    background-color: #F5F5F5;
+ }
+ .User-Place .Tab-Details .Name{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;  
+    margin-top: 2rem;  
+ }
+ .User-Place .Tab-Details .Number{
+    width: 80%;
+    text-align: center;
+    overflow: hidden;  
+    margin-top: 1rem;  
+    background-color: #E8E8E8;
+    padding: 5px 0;
+    font-size: 13px;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+ }
+ .User-Place .Tab-Details h5{
+    width: 90%;
+    text-align: right;
+    margin: 5px 0;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 13px;
+    cursor: pointer;
+ }
+ .User-Place .Tab-Details .lineTab{
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.602);
+    margin: 1rem 0;
+ }
+ .User-Place .Tab-Details h5:hover{
+    background-color: #B42A31;
+    color: #fff;
+ 
+ }
+ .activeUser{
+    background-color: #B42A31;
+    color: #fff;
+ }
+ .Info-Tab{
+    width: 60%;
+    height: 28rem;
+    margin-right: 2rem;
+    overflow: hidden;
+ }
+ .Info-Tab .PageStyle{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+    overflow: auto;
+    padding: 2px;
+ }
+ .ExtraHight{
+   height: 40rem !important;
+ }
+ .Info-Tab .Pishkhan{
+    flex-direction: column;
+    background: url(/Images/v748-toon-107.jpg) no-repeat center center/cover;
+
+ }
+ .Info-Tab .EditUser{
+    flex-direction: column;
+    background: url(/Images/v748-toon-107.jpg) no-repeat center center/cover;
+
+
+ }
+ .Info-Tab .BillEdit{
+    flex-direction: column;
+    background-color: #F5F5F5;
+    box-shadow: inset 0px 0px 20px 7px rgba(0,0,0,0.1);
+ }
+
+ .Info-Tab .Pishkhan h2{
+    margin-top: 3rem;
+    width: 50%;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding-bottom: 2rem;
+ }
+ .Info-Tab .Pishkhan .doubleItem{
+   width: 80%;
+   height: 6rem;
+   margin-top: 2rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ .Info-Tab .Pishkhan .doubleItem h3{
+   background-color: #fff;
+   width: 45%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 13px;
+   border-radius: 10px;
+ }
+ .Info-Tab .Pishkhan  h3{
+   background-color: #fff;
+   width: 80%;
+   height: 6rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 13px;
+   border-radius: 10px;
+   margin-top: 2rem;
+ }
+ .Info-Tab .EditUser  h3{
+   margin-top: 0.5rem;
+   width: 40%;
+   text-align: center;
+   padding: 10px ;
+
+}
+ .Info-Tab .EditUser .Input-Edit{
+   width: 80%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 2rem;
+   flex-wrap: wrap;
+}
+ .Info-Tab .EditUser .Input-Edit input{
+   width: 45%;
+   height: 2.5rem;
+   border-radius: 10px;
+   border: 1px solid rgba(0, 0, 0, 0.467);
+   margin: 5px 0;
+   padding-right: 1rem;
+}
+ .Info-Tab .EditUser .Input-Edit input:nth-child(4){
+   background-color: #D9D9D9;
+   border: none;
+}
+ .Info-Tab .EditUser .Input-Edit input::placeholder{
+  font-family: "Shabnam" ;
+  color: rgba(0, 0, 0, 0.253);
+   
+}
+ .Info-Tab .EditUser .Input-Edit textarea::placeholder{
+  font-family: "Shabnam" ;
+  color: rgba(0, 0, 0, 0.253);
+   
+}
+ .Info-Tab .EditUser .Input-Edit textarea{
+   width: 100%;
+   height: 6rem;
+   border-radius: 10px;
+   border: 1px solid rgba(0, 0, 0, 0.467);
+   margin: 10px 0;
+   padding: 1rem;
+}
+
+.Info-Tab .BillEdit  h3{
+    margin-top: 0.5rem;
+    border-bottom: 1px solid black;
+    width: 40%;
+    text-align: center;
+    padding: 10px ;
+ 
+ }
+.Info-Tab .BillEdit  .ListBill{
+   width: 80%;
+   margin-top: 1rem;
+   display: flex;
+   align-items: flex-start;
+   flex-direction: column;
+   height: 80%;
+   overflow: auto;
+ }
+.Info-Tab .BillEdit h5{
+   width: 100%;
+   text-align: right;
+   padding: 1rem 2rem;
+   font-size: 11px;
+   margin-bottom: -1rem;
+ }
+ .TitleOfBills{
+  width: 100%;
+  height: 2rem;
+  display: flex;
+   align-items: center;
+   justify-content: right;
+   padding: 0 1rem;
+ }
+ .TitleOfBills h6:nth-child(1){
+   width: 6rem;
+   text-align: center;
+ }
+ .TitleOfBills h6:nth-child(2){
+   width: 15rem;
+   text-align: center;
+ }
+ .TitleOfBills h6:nth-child(3){
+   width: 5rem;
+   text-align: center;
+ }
+.Info-Tab .BillEdit .Row-Bill{
+   width: 100%;
+   margin: 5px 0;
+   background-color: #fff;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: right;
+   
+   padding: 8px 1rem;
+ }
+.Info-Tab .BillEdit .Row-Bill h6:nth-child(1){
+  width: 6rem;
+  text-align: center;
+ }
+.Info-Tab .BillEdit .Row-Bill h6:nth-child(2){
+  width: 15rem;
+  text-align: center;
+  overflow: hidden;
+ }
+.Info-Tab .BillEdit .Row-Bill h6:nth-child(3){
+  width: 5rem;
+  text-align: center;
+ }
+.Info-Tab .BillEdit .Row-Bill a{
+    background-color: #D2EBFF;
+    padding: 0 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    height: 20px;
+    font-family: "Shabnam" ;
+    font-size: 11px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+.Info-Tab .BillEdit .Row-Bill a:nth-child(4){
+  margin-right: 2rem;
+ }
+
+
+ .listPlace{
+   height: 40rem !important;
+   flex-direction: column;
+   overflow:auto;
+ }
+
+ .HeadForTable{
+   width: 100%;
+   height: 3rem;
+   border: 1px solid #0C416D;
+   border-radius: 7px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 1rem;
+   color: #0C416D;
+   margin-bottom: 2rem;
+ }
+
+ .HeadForTable .ItemUser{
+   width: 10rem;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ .HeadForTable .ItemUser img{
+   width: 20px;
+   margin-right: 10px;
+ }
+ 
+ .HeadOfTable{
+   width: 100%;
+   height: 3rem;
+  background-color: #D2EBFF ;
+  border-radius: 20px;
+  display: flex;
+  overflow: hidden;
+  direction: rtl;
+  justify-content: space-between;
+  padding: 0 1rem;
+  align-items: center;
+  margin-bottom: 1px;
+ }
+ .HeadOfTable img{
+   width: 1rem;
+   height: 1rem;
+   cursor: pointer;
+ }
+ .HeadOfTable h6{
+   font-size: 11px;
+   text-align: center;
+ }
+ .HeadOfTable h6:nth-child(2){
+   width: 14rem;
+}
+.HeadOfTable h6:nth-child(3){
+   width: 4rem;
+}
+.HeadOfTable h6:nth-child(4){
+   width: 4rem;
+}
+.HeadOfTable h6:nth-child(5){
+   width: 5rem;
+}
+.HeadOfTable h6:nth-child(6){
+   width: 6rem;
+ }
+
+ .RowOfUserT{
+   width: 100%;
+   height: 3rem;
+  border-radius: 10px;
+  display: flex;
+  overflow: hidden;
+  direction: rtl;
+  justify-content: space-between;
+  padding: 0 1rem;
+  align-items: center;
+  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.1);
+    margin-bottom: 2PX;
+    text-decoration: none;
+    color: black;
+ }
+ .RowOfUserT .Add{
+   width: 20px;
+ }
+ .RowOfUserT h5{
+   font-size: 11px;
+   text-align: center;
+   padding-right: 20px;
+ }
+ .RowOfUserT:nth-child(2n+1){
+   background-color: #E5E5E5;
+ }
+ 
+ .RowOfUserT .ArowUser{
+   width: 10px;
+ }
+
+ .RowOfUserT h5:nth-child(2){
+   width: 14rem;
+   overflow: hidden;
+
+}
+.RowOfUserT h5:nth-child(3){
+   width: 4rem;
+
+}
+.RowOfUserT h5:nth-child(4){
+   width: 4rem;
+
+}
+.RowOfUserT h5:nth-child(5){
+   width: 5rem;
+
+}
+.RowOfUserT h5:nth-child(6){
+   width: 6rem;
+
+ }
+
+ .paginationuSER{
+   width: 100%;
+   height: 3rem;
+   background-color: #F5F5F5 ;
+   border-radius: 5px;
+   display: flex;
+   overflow: hidden;
+   direction: rtl;
+   justify-content: space-between;
+   padding: 0 1rem;
+   align-items: center;
+   box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.1);
+   margin-top: 10px;
+   
+ }
+ .paginationuSER .Actions{
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .paginationuSER .Actions .ActionKind{
+   width: 6rem;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0 2px;
+   
+ }
+ .paginationuSER .Actions .ActionKind h4{
+   color: #0A426D;
+   font-size: 13px;
+   cursor: pointer;
+ }
+ .paginationuSER .Actions .ActionKind img{
+   width: 20px;
+   height: 20px;
+   margin-right: 10px;
+ }
+ 
+ .paginationuSER .pages{
+   width: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: right;
+ }
+ .paginationuSER .pages h5{
+   margin: 0 0.5rem;
+   font-family: "Nazanin" ;
+   cursor: pointer;
+   font-size: 15px;
+ 
+ }
+ .activePage{
+   border-bottom: 1px solid black;
+ }
+ .paginationuSER .pages h5:nth-child(1){
+   font-family: "Shabnam" ;
+ }
+ 
+.inputEdits{
+  width: 90%;
+  height: 87%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.editPlace{
+  width: 10rem;
+  height: 10rem;
+  background-color: #C25258;
+}
+.EditsPlace{
+  width: 90%;
+  height: 87%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.EditsPlaceHiden{
+ display: none;
+}
+.EditsPlace .UserProfile{
+  width: 35%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.EditsPlace .UserProfile h5{
+  margin-bottom: 1rem;
+}
+.EditsPlace .UserProfile .InfoRow{
+  width: 100%;
+  height: 2rem;
+  background-color: #F6F7FF;
+  color: #0C416D;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  padding: 0 10px;
+  margin-bottom: 7px;
+}
+.addresBox{
+  height: 4rem ;
+  width: 100%;
+  background-color: #F6F7FF;
+  color: #0C416D;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-size: 13px;
+  padding: 5px 10px;
+}
+.InfoAddres{
+  width: 10rem;
+}
+.ProfileBtnEdit{
+  width: 100%;
+  height: 2rem;
+  background-color: #D2EBFF;
+  color: #0C416D;
+  border-radius: 10px;
+  border: 1px solid #0A426D;
+  font-family: "Shabnam" ;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.UsersPlace{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: auto;
+}
+.AddUserProfile{
+  width: 55%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.AddUserProfile h5{
+ margin-bottom: 1rem;
+}
+.AddUserProfile .RowAdd{
+  width: 100%;
+  height: 2rem;
+  background-color: #F6F7FF;
+  color: #0C416D;
+  border-radius: 5px;
+  margin-bottom: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+  font-size: 12px;
+}
+.AddUserProfile .RowAdd h6:nth-child(1){
+  width: 7rem;
+  overflow: hidden;
+}
+.AddUserProfile .RowAdd h6:nth-child(2){
+  width: 5rem;
+}
+.AddUserProfile .RowAdd button{
+  width: 3rem;
+  border: none;
+  font-size: 10px;
+  padding: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.AddUserProfile .RowAdd button:nth-child(3){
+ background-color: #FFF1F0;
+ color: #C25258;
+}
+.AddUserProfile .RowAdd button:nth-child(4){
+ background-color: #d2ebff;
+ color: #0C416D;
+}
+
+
+
+.TitleOfEdits{
+  width: 80%;
+  height: 2.5rem;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.197);
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.TitleOfEdits .Steel-tab button {
+  background-color: #fff;
+  border-radius: 7px;
+  border: 1px solid black;
+  width: 6rem;
+  font-size: 12px;
+  padding: 5px;
+
+
+}
+.FormInputs{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.FormInputs .InputsPlaceEdit{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  flex-wrap: wrap;
+}
+.EditInfoInput{
+  width: 45%;
+  height: 2.4rem;
+  border: 1px solid rgba(0, 0, 0, 0.455);
+  border-radius: 5px;
+  text-align: right;
+  padding-right: 20px;
+  font-family: "Shabnam" ;
+  margin-bottom: 12px;
+}
+.EditInfoInput::placeholder{
+  color: rgba(0, 0, 0, 0.357);
+}
+
+.bigEditInfoInput{
+  width: 100%;
+  height: 4rem;
+  border: 1px solid rgba(0, 0, 0, 0.455);
+  border-radius: 5px;
+  text-align: right;
+  padding-right: 20px;
+  font-family: "Shabnam" ;
+  margin-bottom: 12px;
+  padding-top: 5px;
+}
+.bigEditInfoInput::placeholder{
+  color: rgba(0, 0, 0, 0.357);
+}
+.btnEditSave{
+  width: 100%;
+  height: 2.4rem;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #D2EBFF;
+  border: 1px solid;
+  font-family: "Shabnam" ;
+
+}
+.btnEditSave:hover{
+  background-color: #0A426D;
+  color: #fff;
+}
+
+
+.AlertEdit{
+  width: 100%;
+  height: 100%;
+  background-color: #000000ba;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.AlertEdit .boxAlert{
+  width: 40%;
+  height: 20rem;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;flex-direction: column;
+  padding: 1rem;
+  justify-content: center;
+}
+.AlertEdit .boxAlert img{
+  width: 5rem;
+  margin-bottom: 20px;
+}
+.AlertEdit .boxAlert h4{
+  text-align: center;
+  direction: rtl;
+}
+.AlertEdit .boxAlert .successfully{
+  color: #00BE4D;
+
+}
+.AlertEdit .boxAlert .btnAlertPlace{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  direction: rtl;
+  margin-top: 2rem;
+}
+.AlertEdit .boxAlert .btnAlertPlace button{
+   border: none;
+   background-color: #D2EBFF;
+   border-radius: 5px;
+  font-family: "Shabnam" ;
+   padding: 10px;
+   width: 10rem;
+   margin: 0 10px;
+   cursor: pointer;
+}
+.AlertEdit .boxAlert .btnAlertPlace .AcceptDelete{
+   color: #B42A31;
+}
+.deleteColor{
+  color: #B42A31;
+}

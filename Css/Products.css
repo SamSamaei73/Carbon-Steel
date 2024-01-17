@@ -1,0 +1,938 @@
+ .title-products{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    direction: rtl;
+    margin-top: 1rem;
+
+
+}
+ .title-products .progress{
+   color: #B80C0A;
+   margin-right: 0.5rem;
+   margin-left: 0.5rem;
+}
+ .title-products a{
+   text-decoration: none;
+   color: #0a0909;
+   font-size: 13px;
+   width: 6rem;
+}
+ .title-products .InfoLong{
+   text-decoration: none;
+   color: #0a0909;
+   font-size: 13px;
+   width: 18rem;
+}
+ .title-products .linePro{
+   border: 1px solid rgba(128, 128, 128, 0.461);
+   width: 75%;
+}
+ .title-products .lineProInfo{
+   border: 1px solid rgba(128, 128, 128, 0.461);
+   width: 50%;
+}
+
+.lists{
+    width: 83%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    direction: rtl;
+}
+.lists .box-list{
+    width: 12rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    cursor: pointer;
+    overflow: hidden;
+    margin: 10px 10px;
+    text-decoration: none;
+
+    
+}
+.lists .box-list h2{
+   font-size: 14px;   
+}
+.coloreRed{
+    background-color: #FFD2D2;
+    color: #B80C0A;
+}
+.coloreBlue{
+    background-color: #D0E8FC;
+}
+.Oili{
+    background-color: #FFFCE2;
+    color: black;
+
+}
+.Gray{
+    background-color: #E1E1E1;
+    color: black;
+}
+.coloreGray{
+    background-color: #CCCCCC;
+    color: #1c1c1c;
+}
+.coloreBlack{
+    background-color: #E5E5E5;
+    color: #111111;
+}
+.lists .box-list:hover{
+   background-color: #fff;
+   color: #0a0909;
+    
+}
+.lists .box-list img{
+   position: absolute;
+   width: 100%;
+   bottom: 0;
+}
+
+
+.ListPlace{
+  width: 100%;
+  padding: 1rem 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.ListPlace h2{
+  width: 100%;
+  text-align: right;
+  margin-bottom: 1rem;
+}
+.List-space{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title-TabMain{
+  width: 70%;
+    height: 4rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.Steel-tab2 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+/* Style the buttons inside the tab */
+.Steel-tab2 button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 15px;
+  height: 100%;
+  width: 10rem;
+  font-family: "Shabnam" ;
+  border-bottom: 5px solid #868383aa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+
+
+}
+.Steel-tab2 button img{
+  width: 30px;
+  margin-left: 10px;
+}
+
+/* Change background color of buttons on hover */
+.Steel-tab2 button:hover {
+  border-bottom: 4px solid #1957dc;
+}
+
+/* Create an active/current tablink class */
+.Steel-tab2 button.active {
+  border-bottom: 4px solid #B8030A;
+}
+.tabSteelsMain {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.tabSteelsMain .boxPrice{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.tabSteelsMain .boxPrice .box{
+  width: 100%;
+  display: flex;
+  padding: 3rem 0;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #ffff;
+  margin: 1rem 0;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-wrap: wrap;
+  box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+
+}
+.tabSteelsMain .boxPrice .box .price-Box{
+  width:27rem;
+  height: 84%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  
+}
+.tabSteelsMain .boxPrice .box .price-Box .item-Info{
+  width: 80%;
+  height: 2.5rem;
+  border-bottom: 1px solid #B8030A;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  direction: rtl;
+
+}
+.tabSteelsMain .boxPrice .box .price-Box .item-Info h6{
+  font-size: 12px;
+
+}
+.tabSteelsMain .boxPrice .box .price-Box .item-price{
+  height: 100%;
+  width: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.tabSteelsMain .boxPrice .box .price-Box .item-price img{
+ width: 20px;
+ height: 20px;
+
+}
+.tabSteelsMain .boxPrice .box h4{
+  position: absolute;
+  bottom: 0;
+  background-color: #D2EBFF ;
+  width: 100%;
+  height: 16%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 17px;
+  text-align: center;
+}
+
+
+.Tab-products h3{
+    width: 90%;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 10px;
+   
+}
+.Tab-products .explain-products{
+    width: 90%;
+    padding: 0 1rem 1rem 1rem;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 123, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+   
+}
+.Tab-products .explain-products .title{
+    width: 70%;
+    height: 2.5rem;
+    border-radius: 0 0 10px 10px;
+    background-color:#D2EBFF;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Tab-products .explain-products .main-explain{
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    direction: rtl;
+    text-align: right;
+}
+/* Style the tab */
+.ChangeProduct {
+    overflow: hidden;
+    background-color: #cd272700;
+
+  }
+  
+  /* Style the buttons inside the tab */
+  .ChangeProduct button {
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 12px;
+    font-family: "Shabnam" ;
+    border-bottom: 4px solid #0a0909;
+    height: 100%;
+    padding: 0 1rem;
+    background-color: inherit;
+    margin: 0 1rem;
+
+
+  }
+  
+  /* Change background color of buttons on hover */
+  .ChangeProduct button:hover {
+    border-bottom: 4px solid #0a0909;
+  }
+  
+  /* Create an active/current tablink class */
+  .ChangeProduct button.active {
+    border-bottom: 4px solid #B8030A;
+    color: #B8030A;
+  }
+  
+  /* Style the tab content */
+  .tabProducts {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .companeisPro{
+    width: 100%;
+    padding: 2rem;
+    background-color: #C0C0C0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+  }
+  .companeisPro h3{
+    width: 90%;
+    text-align: right;
+ }
+ .companeisPro .main-company{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.companeisPro .main-company .companySlides2{
+  width: 100%;
+  margin-top: 2rem;
+  position: relative;
+}
+.companeisPro .main-company .companySlides2 .place-items{
+  width: 100%;
+  position: relative;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+ 
+}
+.companeisPro .main-company .companySlides2 .place-items .boxCompany{
+  width: 12rem;
+  height: 12rem;
+  background-color: rgb(255, 255, 255);
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 10px 1.5rem;
+  position: relative;
+}
+.companeisPro .main-company .companySlides2 .place-items .boxCompany img{
+  position: absolute;
+  width: 70%;
+  height: 70%;
+}
+
+.companeisPro .LeftBtnCom{
+ position: absolute;
+ width: 3rem;
+ height: 3rem;
+ border-radius: 50%;
+ left: 6%;
+ top: 12rem;
+ background-color: #0a090900;
+ cursor: pointer;
+}
+.companeisPro .RightBtnCom{
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  right: 6%;
+  top: 12rem;
+  background-color: #0a090900;
+  cursor: pointer;
+}
+
+
+/* /////////////////////////////////////////products////////////////////////////////////////////////////// */
+
+.Tab-products{
+  width: 75%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+
+/* /////////////////////////////////////////Filters////////////////////////////////////////////////////// */
+
+.filters{
+  width:75%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.filters .input-filters{
+  width: 95%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  direction: rtl;
+}
+.TableShowPrice{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.filters .input-filters select{
+  margin: 10px;
+  width: 11rem;
+  height: 2.5rem;
+  border: none;
+  box-shadow: 0px 0px 13px 4px rgba(0,0,0,0.1);  
+  border-radius: 5px;
+  direction: rtl;
+  font-family: "Shabnam" ;
+  padding: 0 0.5rem;
+}
+.filter-State{
+  width: 95%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  flex-wrap: wrap;
+  direction: rtl;
+  margin-top: 1rem;
+  padding: 0 2rem;
+}
+.filter-State h5{
+  direction: rtl;
+  font-size: 15px;
+}
+.filter-State p{
+  margin: 0 2rem;
+  font-size: 14px;
+}
+.filter-State p img{
+  margin: 0 1rem;
+  width: 12px;
+}
+.filter-State button{
+  border: 1px solid #B8030A;
+  padding: 4px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #0a090900;
+  font-family: "Shabnam" ;
+
+
+}
+.filter-State button img{
+
+  margin-right: 0.5rem;
+  width: 11px;
+}
+.titleFilter{
+  width: 90%;
+  padding: 1rem 2rem;
+  background-color: #EFEFEF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  border-radius: 5px;
+  direction: rtl;
+  margin-bottom: 2rem;
+}
+.titleFilter .right{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+
+}
+.titleFilter .left{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+
+}
+.titleFilter .right img{
+ width: 2rem;
+}
+.titleFilter .right h5{
+  margin: 0 1rem;
+}
+.titleFilter .right h6{
+  margin-right: 2rem;
+}
+.titleFilter .left h5{
+  color: #0c1c4f;
+  font-size: 14px;
+}
+.titleFilter .left img{
+  width: 2rem;
+  margin: 0 0.5rem;
+}
+.titleFilter .left button{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+  border: 1px solid rgb(225, 163, 19);
+  padding: 5px 1rem;
+  border-radius: 5px;
+  color: #0c1c4f;
+  margin-right: 2rem;
+}
+.titleFilter .left button:hover{
+ 
+  border: 1px solid #0c1c4f;
+
+}
+.titleFilter .left button img{
+  width: 1.5rem;
+}
+
+/* ///////////////////////////////////////////////////table/////////////////////////////////////////////// */
+
+.titleTable{
+  width: 90%;
+  height: 3rem;
+  background-color: #B22A31 ;
+  border-radius: 20px;
+  display: flex;
+  overflow: hidden;
+  direction: rtl;
+  justify-content: space-between;
+  padding: 0 1rem;
+  align-items: center;
+  margin-bottom: 1px;
+}
+.titleTable img{
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+}
+.titleTable h6{
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+}
+.titleTable h6:nth-child(2){
+  width: 13rem;
+}
+.titleTable h6:nth-child(3){
+  width: 4rem;
+}
+.titleTable h6:nth-child(4){
+  width: 4rem;
+}
+.titleTable h6:nth-child(5){
+  width: 3rem;
+}
+.titleTable h6:nth-child(6){
+  width: 3rem;
+}
+.titleTable h6:nth-child(7){
+  width: 7rem;
+}
+.titleTable h6:nth-child(8){
+  width: 7rem;
+  
+}
+.titleTable h6:nth-child(9){
+  width: 7rem;
+}
+
+.rowTableWithe{
+  width: 90%;
+  height: 3rem;
+  background-color: #ffffff ;
+  border-radius: 20px;
+  display: flex;
+  overflow: hidden;
+  direction: rtl;
+  justify-content: space-between;
+  padding: 0 1rem;
+  align-items: center;
+  box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.1);
+    margin-bottom: 1px;
+    font-family: "Shabnam" ;
+    text-decoration: none;
+    color: #0a0909;
+  
+}
+.rowTableWithe:hover{
+  background-color: rgba(255, 192, 203, 0.673);
+}
+.grayRow {
+  background-color: #E9E9E9;
+}
+
+.rowTableWithe img{
+  width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+}
+.rowTableWithe .Add{
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+.rowTableWithe h5{
+  text-align: center;
+}
+.rowTableWithe h5:nth-child(2){
+  width: 13rem;
+  font-size: 11px;
+}
+.rowTableWithe h5:nth-child(3){
+  width: 4rem;
+}
+.rowTableWithe h5:nth-child(4){
+  width: 4rem;
+}
+.rowTableWithe h5:nth-child(5){
+  width: 3rem;
+}
+.rowTableWithe h5:nth-child(6){
+  width: 3rem;
+}
+.rowTableWithe h5:nth-child(7){
+  width: 7rem;
+}
+.rowTableWithe h5:nth-child(8){
+  width: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rowTableWithe h5:nth-child(9){
+  width: 7rem;
+}
+
+
+.pagination{
+  width: 90%;
+  height: 4rem;
+  background-color: #F5F5F5 ;
+  border-radius: 5px;
+  display: flex;
+  overflow: hidden;
+  direction: rtl;
+  justify-content: space-between;
+  padding: 0 3rem;
+  align-items: center;
+  box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.1);
+  margin-top: 10px;
+  
+}
+.pagination .Actions{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pagination .Actions .ActionKind{
+  width: 6rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 2px;
+  
+}
+.pagination .Actions .ActionKind h4{
+  color: #0A426D;
+  font-size: 15px;
+  cursor: pointer;
+}
+.pagination .Actions .ActionKind img{
+  width: 23px;
+  height: 23px;
+  margin-right: 10px;
+}
+
+.pagination .pages{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.pagination .pages h5{
+  margin: 0 0.5rem;
+  font-family: "Nazanin" ;
+  cursor: pointer;
+  font-size: 15px;
+
+}
+.pagination .pages h5:nth-child(1){
+  font-family: "Shabnam" ;
+}
+.activePage{
+  border-bottom: 1px solid black;
+}
+
+/* <!-- //////////////////////////////////////related///////////////////////////////////////////////////////////// --> */
+
+.EspecialArticle{
+  width: 100%;
+  height: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 5rem;
+}
+.EspecialArticle .MainPart{
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+.EspecialArticle .MainPart .TitleArticleE{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+
+}
+.EspecialArticle .MainPart .TitleArticleE h2{
+  width: 100%;
+  text-align: right;
+  margin-top: 1rem;
+}
+.EspecialArticle .MainPart .TitleArticleE .NameOfTitle{
+  width: 100%;
+  height: 90%;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem ;
+}
+.EspecialArticle .MainPart .TitleArticleE .NameOfTitle a{
+  width: 100%;
+  text-align: right;
+  direction: rtl;
+  margin-bottom: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+.EspecialArticle .MainPart .Description{
+  width:70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+
+}
+.EspecialArticle .MainPart .Description .Descriptions{
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding: 1rem;
+  scroll-behavior: smooth;
+
+
+}
+.EspecialArticle .MainPart .Description .Descriptions h4{
+  margin-bottom: 1rem;
+}
+.EspecialArticle .MainPart .Description h2{ 
+  width: 100%;
+  text-align: right;
+}
+.EspecialArticle .MainPart .Description h4{ 
+  width: 100%;
+  text-align: right;
+  color: #5A5A5A;
+}
+.EspecialArticle .MainPart .HorizenLine{
+  width: 2px;
+  height: 90%;
+  background-color: #0a426d91;
+
+}
+
+/* /////////////////////////////////mobile////////////////////////////////////////// */
+
+@media (max-width: 565px) {
+  .MobileNavbarPlace{
+    display: flex;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .MiniSocialMedia{
+    display: none;
+  }
+  .Tab-products{
+    display: none;
+  }
+  .slideBar{
+    width: 100%;
+    right: 0;
+    padding: 1rem;
+    order: 2 !important;
+    position: relative;
+  }
+  .MainFirstPage{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .filters{
+    background-color: #fff;
+    order: 1 !important;
+    width: 100%;
+  }
+  .titleFilter{
+    display: none;
+  }
+  .filter-State{
+    display: none;
+  }
+  .titleTable{
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    padding: 1rem;
+
+  }
+  .titleTable h6{
+    font-size: 8px;
+  }
+  .rowTableWithe .Add{
+    width: 15px;
+    height: 15px;
+  }
+  .rowTableWithe img{
+    width: 10px;
+    height: 10px;
+    margin-right: 3px;
+  }
+  .rowTableWithe h5:nth-child(2){
+    font-size: 8px;
+    margin-right: 5px;
+    width: 17rem;
+  }
+  .rowTableWithe{
+    border-radius: 0;
+    width: 100%;
+    padding: 1rem !important;
+
+  }
+  .pagination{
+    display: none;
+  }
+  .TableShowPrice{
+   border-radius: 5px;
+   height: 25rem;
+   overflow: scroll;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   padding: 1rem;
+   font-size: 10px;
+  }
+  .EspecialArticle{
+    display: none !important;
+  }
+  .filters .input-filters select{
+    width: 100%;
+  }
+  .title-products{
+    display: none;
+  }
+  .lists{
+    width: 100%;
+    justify-content: center;
+  }
+  .lists .box-list{
+     width: 100%;
+     height: 4rem;
+     justify-content: center;
+  }
+  .lists .box-list img{
+     width: 65px;
+     left: 0;
+  }
+  .companeisPro{
+    display: none;
+  }
+}
